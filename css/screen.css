@@ -71,9 +71,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   font-family: "Georgia", serif;
   font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 10, ../_scss/_defaults.scss */
+/* line 12, ../_scss/_defaults.scss */
 p {
   line-height: 1.5;
 }
@@ -87,8 +89,13 @@ p {
 }
 
 /* line 12, ../_scss/_fonts.scss */
-.aller, h1, h2, h3, h4, h5, h6 {
+.aller {
   font-family: 'allerregular', arial;
+}
+
+/* line 16, ../_scss/_fonts.scss */
+.aller-light, .cta, .toggle-about-panel {
+  font-family: 'aller_lightregular', arial;
 }
 
 @font-face {
@@ -99,28 +106,223 @@ p {
   font-style: normal;
 }
 
-/* line 27, ../_scss/_fonts.scss */
-.aller-light {
+/* line 31, ../_scss/_fonts.scss */
+.aller-light, .cta, .toggle-about-panel {
   font-family: 'aller_lightregular', arial;
+}
+
+/* line 1, ../_scss/_classes.scss */
+.cta, .toggle-about-panel {
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  border-radius: 0.5em;
+  -webkit-transition: background, 0.25s;
+  -moz-transition: background, 0.25s;
+  -o-transition: background, 0.25s;
+  transition: background, 0.25s;
+  background: white;
+  outline: none;
+  color: #e94127;
+  border: 1px solid #e94127;
+  display: inline-block;
+  padding: 1em 1.25em;
+  text-transform: lowercase;
+  font-size: 1em;
+}
+/* line 13, ../_scss/_classes.scss */
+.cta:hover, .toggle-about-panel:hover {
+  background: #e94127;
+  color: white;
+}
+
+@font-face {
+  font-family: 'jshakes-icons';
+  src: url("/fonts/jshakes-icons.eot?i18epf");
+  src: url("/fonts/jshakes-icons.eot?#iefixi18epf") format("embedded-opentype"), url("/fonts/jshakes-icons.woff?i18epf") format("woff"), url("/fonts/jshakes-icons.ttf?i18epf") format("truetype"), url("/fonts/jshakes-icons.svg?i18epf#jshakes") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../_scss/_icons.scss */
+.icon-search {
+  content: "\e602";
+}
+
+/* line 30, ../_scss/_icons.scss */
+.icon-phone {
+  content: "\e603";
+}
+
+/* line 33, ../_scss/_icons.scss */
+.icon-hamburger {
+  content: "\e604";
+}
+
+/* line 36, ../_scss/_icons.scss */
+.icon-fb {
+  content: "\e605";
+}
+
+/* line 39, ../_scss/_icons.scss */
+.icon-email {
+  content: "\e606";
+}
+
+/* line 42, ../_scss/_icons.scss */
+.icon-arrow-right {
+  content: "\e600";
+}
+
+/* line 45, ../_scss/_icons.scss */
+.icon-arrow-left {
+  content: "\e607";
+}
+
+/* line 48, ../_scss/_icons.scss */
+.icon-arrow-up {
+  content: "\e608";
+}
+
+/* line 51, ../_scss/_icons.scss */
+.icon-arrow-down, .toggle-about-panel:after {
+  content: "\e609";
+}
+
+/* line 54, ../_scss/_icons.scss */
+.icon-twitter {
+  content: "\e601";
+}
+
+/* line 57, ../_scss/_icons.scss */
+.icon-jshakes-logo, .site-header-icon:before {
+  content: "\e60a";
 }
 
 /* line 3, ../_scss/_layout.scss */
 .site-header {
   text-align: center;
-  padding: 4em 0;
+  padding: 2em 0;
+  background: #e94127;
+  color: white;
+  border-bottom: 1px solid white;
 }
 
-/* line 7, ../_scss/_layout.scss */
-.site-header-title {
-  font-size: 2em;
-  color: #333333;
+/* line 11, ../_scss/_layout.scss */
+.site-header-permalink {
+  color: white;
   text-decoration: none;
+  display: block;
 }
 
-/* line 15, ../_scss/_layout.scss */
-.article-permalink {
-  font-size: 2em;
+/* line 17, ../_scss/_layout.scss */
+.site-header-icon {
+  font-size: 0;
+}
+/* line 15, ../_scss/_icons.scss */
+.site-header-icon:before {
+  font-family: 'jshakes-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+/* line 20, ../_scss/_layout.scss */
+.site-header-icon:before {
+  font-size: 60px;
+}
+
+/* line 27, ../_scss/_layout.scss */
+.toggle-about-panel {
+  cursor: pointer;
+  border-color: white;
+  color: white;
+  background: transparent;
+  font-size: .8em;
+}
+/* line 15, ../_scss/_icons.scss */
+.toggle-about-panel:after {
+  font-family: 'jshakes-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+/* line 35, ../_scss/_layout.scss */
+.toggle-about-panel:hover {
+  background: white;
+  color: #e94127;
+}
+/* line 39, ../_scss/_layout.scss */
+.toggle-about-panel:after {
+  margin-left: 1.5em;
+  font-size: .7em;
+}
+
+/* line 45, ../_scss/_layout.scss */
+.about-panel {
+  text-align: center;
+  padding: 2em 0 0;
+}
+
+/* line 50, ../_scss/_layout.scss */
+.about-panel-text {
+  text-align: left;
+  display: none;
+}
+
+/* line 59, ../_scss/_layout.scss */
+.article-index .article-permalink {
+  -webkit-transition: background, 0.25s;
+  -moz-transition: background, 0.25s;
+  -o-transition: background, 0.25s;
+  transition: background, 0.25s;
   display: block;
   text-align: center;
-  padding: 1em 25%;
+  padding: 2em 25%;
+  text-decoration: none;
+  color: #444444;
+}
+/* line 66, ../_scss/_layout.scss */
+.article-index .article-permalink:hover {
+  background: #e94127;
+  color: white;
+}
+/* line 72, ../_scss/_layout.scss */
+.article-index .article-title {
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+
+/* line 81, ../_scss/_layout.scss */
+.article-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+/* line 87, ../_scss/_layout.scss */
+.article-header {
+  text-align: center;
+}
+
+/* line 91, ../_scss/_layout.scss */
+.article-permalink {
+  color: #444444;
+}
+
+/* line 95, ../_scss/_layout.scss */
+.article-title {
+  font-size: 3em;
+  margin: 0 0 .5em;
+}
+
+/* line 100, ../_scss/_layout.scss */
+.article-body > p {
+  margin: 0 0 1em;
 }

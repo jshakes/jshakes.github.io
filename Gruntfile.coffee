@@ -5,8 +5,11 @@ module.exports = (grunt) ->
 
     watch:
       compass:
-        files: ["scss/**/*.scss"]
-        tasks: ["compass"]
+        files: ["_scss/**/*.scss"]
+        tasks: ["compass:dev"]
+      coffee:
+        files: ["_coffee/**/*.coffee"]
+        tasks: ["coffee:dev"]
 
     compass:
       dev:
@@ -21,14 +24,15 @@ module.exports = (grunt) ->
           imagesDir: "img"
 
     coffee:
-      compile:
-        options:
-          bare: true
-        files:
-          "_site/js/app.js": ["coffee/**/*.coffee"]
+      options:
+        bare: true
+      dist:
+        files: "js/app.js": ["_coffee/**/*.coffee"]
+      dev:
+        files: "_site/js/app.js": ["_coffee/**/*.coffee"]
 
   grunt.loadNpmTasks "grunt-contrib-watch"
-  grunt.loadNpmTasks "grunt-contrib-coffee"
   grunt.loadNpmTasks "grunt-contrib-compass"
+  grunt.loadNpmTasks "grunt-contrib-coffee"
 
-  grunt.registerTask "build", ["compass:dev", "coffee"]
+  grunt.registerTask "build", ["compass", "coffee"]
