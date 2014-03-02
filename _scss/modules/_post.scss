@@ -20,12 +20,6 @@
 
 // Single article
 
-.article-content{
-  max-width: $max_width;
-  margin: 0 auto;
-  padding: 0 1em;
-}
-
 // Article header
 
 .article-header{
@@ -44,9 +38,6 @@
   text-decoration: none;
 }
 
-.article-title{
-  font-size: 3em;
-}
 
 .article-hero-image{
   @include border-radius(50%);

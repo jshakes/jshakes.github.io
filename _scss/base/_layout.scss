@@ -42,3 +42,15 @@
   color: $light_grey;
   padding: 2em 0;
 }
+
+// Pages
+
+.page-content{
+  max-width: $max_width;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.page-title{
+  font-size: 3em;
+}
