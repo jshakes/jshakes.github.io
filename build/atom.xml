@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>James Shakespeare</title>
+ <link href="http://jshak.es/atom.xml" rel="self"/>
+ <link href="http://jshak.es/"/>
+ <updated>2014-03-01T20:09:07-05:00</updated>
+ <id>http://jshak.es</id>
+ <author>
+   <name>James Shakespeare</name>
+ </author>
+ 
+ 
+ <entry>
+   <title>You aren't learning if you aren't doing</title>
+   <link href="http://jshak.es/you-arent-learning-if-you-arent-doing"/>
+   <updated>2013-05-20T13:24:56-04:00</updated>
+   <id>http://jshak.es/you-arent-learning-if-you-arent-doing</id>
+   <content type="html">&lt;p&gt;One of the most exciting things about being involved with the web is that new technologies are emerging all the time. The thing that sucks about that is new things are emerging &lt;em&gt;all the damn time&lt;/em&gt;. If a developer is to remain competitive, pioneering and most importantly, in a job, then learning must be a core part of her career.&lt;/p&gt;
+
+&lt;p&gt;But learning purely to avoid atrophy won&amp;rsquo;t ever help you achieve a demonstrably useful level in a new skill. Even &lt;em&gt;wanting&lt;/em&gt; to learn isn&amp;rsquo;t enough. If the onus is entirely on self-motivation and the intrinsic rewards of bettering oneself to sustain interest, then for most of us it will be a short-lived venture every time. We must have a &lt;em&gt;need&lt;/em&gt; to learn &amp;ndash; an environment with real demands and a place to immediately put fresh knowledge to task &amp;ndash; not just a sandbox that will never see the light of day.&lt;/p&gt;
+
+&lt;p&gt;In other words, we must create a knowledge vacuum, not simply crowbar more information into an already overloaded brain.&lt;/p&gt;
+
+&lt;h4&gt;Necessity is the mother of learning&lt;/h4&gt;
+
+&lt;p&gt;Case in point &amp;ndash; I&amp;rsquo;ve been learning Rails, or rather &lt;em&gt;intending&lt;/em&gt; to learn Rails, on and off for longer than I care to say. I&amp;rsquo;m still entirely incompetent because, although the framework excites me, until recently I haven&amp;rsquo;t the incentive of seeing it solve real need. Only when I thought up an idea for a real-world Rails app did I really start to ramp up the learning process.&lt;/p&gt;
+
+&lt;p&gt;There are, of course, countless Rails books and tutorials that would have walked me through building a Twitter clone or an event ticketing website or whatever else, and I would undoubtedly have learned a lot along the way. But this mindset is wrong for two reasons:&lt;/p&gt;
+
+&lt;p&gt;1) What you&amp;rsquo;re building is dull and, more importantly, not real. Any good teacher will tell you that the key to engaging students is to present the subject matter in a relevant and exciting way.&lt;/p&gt;
+
+&lt;p&gt;2) It&amp;rsquo;s information that is, at the immediate time of learning, redundant. That means that you&amp;rsquo;re less likely to retain that information and you don&amp;rsquo;t really have any real-world understanding of how to apply it.&lt;/p&gt;
+
+&lt;p&gt;Compare this to starting with an idea and learning as you build. You have both the ongoing rewards of solving your own problems and the stronger contextual factors that will aid your memory further down the line.&lt;/p&gt;
+
+&lt;p&gt;Of course, you&amp;rsquo;d be going about things in a very backwards manner if you were to learn something from scratch armed with nothing more than a blank text file and Stack Overflow, and anyone who were to do follow such an ad-hoc methodology would probably turn out to be a worse than useless programmer. But when you&amp;rsquo;re plodding your way through your Codecademy tutorials and Youtube screencasts, it undeniably helps to at least have an idea in the back of your mind as to how you will apply your newfound knowledge to something you actually care about.&lt;/p&gt;
+
+&lt;p&gt;Rack your brains for something to build that will benefit you, or look for ways to use emergent technology to improve projects you already work on. Think of it this way, which of the following sentences excites you more: &amp;ldquo;I&amp;rsquo;m learning Node.js&amp;rdquo; or &amp;ldquo;I&amp;rsquo;m building a kickass web app with Node.js that will let me easily calculate how much petrol money I save each week by cycling&amp;rdquo;? (You can have that idea for free, internet. You&amp;rsquo;re welcome).&lt;/p&gt;
+
+&lt;p&gt;Learning is a vital part of keeping your mind active and your career chops honed, but ultimately it&amp;rsquo;s street smarts, real world application of knowledge, that will help you the most and spur you to keep learning. Invest your learning time in doing and you will, without even realising, be absorbing the skills to tackle real situations you will face in the field.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>No comment.</title>
+   <link href="http://jshak.es/no-comment"/>
+   <updated>2013-04-11T03:32:47-04:00</updated>
+   <id>http://jshak.es/no-comment</id>
+   <content type="html">&lt;p&gt;&amp;ldquo;A Blog Without Comments Is Not a Blog&amp;rdquo;. So reads the title of an &lt;a href=&quot;http://www.codinghorror.com/blog/2006/04/a-blog-without-comments-is-not-a-blog.html&quot;&gt;article&lt;/a&gt; by Jeff Atwood published in 2006, in which he argues that disabling comments on a blog is tantamount to preaching a sermon; it is a one way delivery of content that doesn&amp;rsquo;t facilitate further discussion or user engagement.&lt;/p&gt;
+
+&lt;p&gt;But let’s think about what value a comment form actually adds to a site. Should we simply assume that because comments bring added engagement that they are always a good thing? When you reach the end of this article, you will notice there are no comments. It&amp;rsquo;s a decision that I have made both as a designer looking to optimise the user experience of my site and as a writer looking to foster discussion in a wider sphere.&lt;/p&gt;
+
+&lt;h4&gt;Keep scrollin' scrollin' scrollin' scrollin’&lt;/h4&gt;
+
+&lt;p&gt;When was the last time you stopped scrolling when you reached the end of an article you felt engaged with? If there’s content below that article then the likelihood is that you’re going to read that too &amp;ndash; or at least skim it.&lt;/p&gt;
+
+&lt;p&gt;This is because of a key principle in the study of HCI called &lt;a href=&quot;http://en.wikipedia.org/wiki/Information_foraging&quot;&gt;Information Foraging&lt;/a&gt;. It&amp;rsquo;s the same instinctive nature that makes animals follow a scent to find food in the wild. On a computer, if we&amp;rsquo;re following an information trail and receiving clues that it is taking us closer to what we&amp;rsquo;re searching for, then we&amp;rsquo;ll keep going. From &lt;a href=&quot;http://www.nngroup.com/articles/information-scent/&quot;&gt;Jakob Nielsen&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&amp;ldquo;Informavores will keep clicking as long as they sense that they&amp;rsquo;re &quot;getting warmer&amp;rdquo; &amp;mdash; the scent must keep getting stronger and stronger, or people give up.&quot;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Let&amp;rsquo;s think about this theory in terms of content on a single web page. Someone is reading your article and it elicits in them a response, negative or positive, that either encourages them to keep scrolling or to leave (let&amp;rsquo;s assume they keep scrolling). The more they scroll, the more content is revealed and the more the user&amp;rsquo;s desire to keep reading is satisfied. When they reach the end of the article, what will they do if there’s more content below it? Keep going. It&amp;rsquo;s a natural, subconscious reflex. They’ve been scrolling down for the past five minutes and have been lavished with juicy blog goodness, why stop now?&lt;/p&gt;
+
+&lt;p&gt;Before the user has had a chance to process what they&amp;rsquo;ve read and form their own opinion, the content of the article has blurred into the responses of others. The stream of information that was so fervently stimulating their grey matter mere seconds ago has descended into a clattering of opinions that rapidly drowns out the intended message of the article. It&amp;rsquo;s the equivalent of reaching the end of a book and having a mob of other readers immediately descend on you, everyone trying to make their review heard above the fray. They could all have valid opinions on what you&amp;rsquo;ve just read, but with everyone shouting over each other it&amp;rsquo;s more likely to inhibit your ability to process information than it is to aid it.&lt;/p&gt;
+
+&lt;p&gt;The real kicker of this is that the content below the article is likely to have a greater power of retention than the article itself. This is thanks to another psychological phenomenon known as &lt;a href=&quot;http://en.wikipedia.org/wiki/Recency_effect#Recency_effect&quot;&gt;Recency Effect&lt;/a&gt;, an observation that people are more likely to recall the items at the end of a list than the items preceding them. Coupled with compulsive &amp;lsquo;overflow&amp;rsquo; scrolling this means users are most likely walking away with someone else’s message; not ideal if you’re trying to inform or make a point. (This is especially bad news for vote-based comment systems that see less popular comments get pushed to the bottom.)&lt;/p&gt;
+
+&lt;h4&gt;A comment is not a discussion&lt;/h4&gt;
+
+&lt;p&gt;Of course, this logic flies in the face of modern-day thinking around democratised content &amp;ndash; in which user engagement is to be prized above all else. But even you do consider this to be the holy grail, there still remains another problem: the traditional format of comments is terrible for discussion.&lt;/p&gt;
+
+&lt;p&gt;Let me bring this back to you, dear reader, by way of example. After all, you&amp;rsquo;re an intelligent individual who&amp;rsquo;s just read 685 whole words of prose and probably has valid opinions coming out the wazoo. Say you get to the end of this article and pen the most eloquent, rational comment that makes everything I’ve written look like pseudo-intellectual drivel. What’s the likelihood that a) you will have read the comments of every other user before leaving yours and b), that you will come back and check for a reply to your comment, or even read a reply if you are notified of one? Most comments are simply &lt;a href=&quot;http://www.youtube.com/watch?v=7R6_Chr2vro&quot;&gt;drive-by arguments&lt;/a&gt;, and with everyone doing it we’re not cultivating valuable engagement.&lt;/p&gt;
+
+&lt;p&gt;Even if you were to find yourself in a discussion with one or more other readers, this thread is likely to take a tangential course fairly quickly &amp;ndash; most likely flanked by several other discussions also going off in different directions. For new readers wanting to weigh in with their thoughts, or consider the article in the light of other people’s views, it&amp;rsquo;s like turning up sober to a party after everyone else has got drunk; you probably won&amp;rsquo;t understand what anyone is saying and will quickly forget why you even wanted to go in the first place.&lt;/p&gt;
+
+&lt;p&gt;By disabling comments an author is not denying the right to discuss what she has written, she is ensuring that the signal isn&amp;rsquo;t drowned out by noise.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not saying comments are inherently bad and that no site should have them. There are plenty of scenarios in which providing a centralised point of discussion is the right thing to do. I understand that it&amp;rsquo;s not always appropriate for people to post their responses in external fora, especially when issues of anonymity and community are considered. But if an article contributes to a wider sphere of reasoning then I don’t think that having a comment form below it does anything substantial to further that debate. Conversely, it’s not regressive to encourage people to take their thoughts into the wider world instead of leaving them at the bottom of a webpage.&lt;/p&gt;
+
+&lt;p&gt;If you feel compelled to comment on this article, please do so. Tweet about it, email me, rant at your spouse/child/cat for a few minutes. Discussion is healthy. But as soon as it degrades into noise, it&amp;rsquo;s probably time to change the topic.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Stop externalising your life</title>
+   <link href="http://jshak.es/stop-externalising-your-life"/>
+   <updated>2013-04-03T12:58:08-04:00</updated>
+   <id>http://jshak.es/stop-externalising-your-life</id>
+   <content type="html">&lt;p&gt;Recently the Barbican museum in London held an exhibition called the Rain Room. It was an installation in which water poured from the ceiling, but sensors detected where people were standing and would turn off the taps above their heads so they didn&amp;rsquo;t get wet. It was a clever and engaging piece of interactive art and was immensely popular. During the time this installation was open, my Twitter stream was filled with photos of people standing in the Rain Room, accompanied by the caption &amp;lsquo;Rain Room @ The Barbican!&amp;rsquo; and a location attachment to prove that they were indeed in the Rain Room.&lt;/p&gt;
+
+&lt;p&gt;This stream of homogenous photos got me thinking. What were people actually saying by Tweeting about their visit? They certainly weren&amp;rsquo;t sharing some hidden gem with their followers, nor were they bringing a unique interpretation of the artwork to the table. Ultimately, all they were doing was fulfilling the obligation that we have to Share. Not sharing in the sense of treasuring a moment with people close to us, but Sharing in the sense of &amp;lsquo;notify the world that I am doing a thing&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve just spent a month in Singapore. Throughout the first couple of weeks I felt a constant nagging that everyone back home had to know what was going on. I felt like I should be photographing everything I did as proof; that all the exotic food I was eating and the sights I was seeing wouldn&amp;rsquo;t really matter if they weren&amp;rsquo;t digitally logged in a data centre somewhere in Utah. I found myself taking pictures purely to convey what an amazing time I was having, so that my friends would see it on their smartphones whilst riding the bus back in London and be impressed.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s natural to want to share experiences with the people you care about. After all, the classic postcard greeting is &amp;lsquo;Wish you were here&amp;rsquo;. But I think our reasons for sharing experiences on social media are more cynical than that. It&amp;rsquo;s not sharing, it&amp;rsquo;s bragging. When we log in to Facebook or Twitter we see an infinitely updating stream of people enjoying themselves. It&amp;rsquo;s not real life, of course, because people overwhelmingly post about the good things whereas all the crappy, dull or deep stuff doesn&amp;rsquo;t get mentioned. But despite this obvious superficiality, it subconsciously makes us feel like everyone is having a better time than us. We try to compete by curating our own life experiences to make it look like we&amp;rsquo;re also having non-stop fun and doing important things. It breeds in us a Pavlovian response that means every time something good is happening to us we must broadcast it to as many people as possible.&lt;/p&gt;
+
+&lt;p&gt;There are plenty of &amp;lsquo;Facebook is bad for you because X&amp;rsquo; posts, but I&amp;rsquo;m talking about a mindset that goes beyond any single web service. This is the curse of our age. We walk around with the tools to capture extensive data about our surroundings and transmit them in real-time to the bedrooms and pockets of friends, family and every acquaintance we&amp;rsquo;ve made in the past eight years. We end up with a diminished perception of reality because we’re more concerned about choosing a good Instagram filter for our meal than we are about how it tastes. We become Martian rovers, trundling around our environment, uploading data without the ability or desire to make any sense of it. Ultimately, we end up externalising our entire lives.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t think that it&amp;rsquo;s inherently wrong to want to keep the world updated about what you&amp;rsquo;re doing. But when you go through life robotically posting about everything you do, you&amp;rsquo;re not a human being. You’re just a prism that takes bits of light and sound and channels them into The Cloud, to be stored with all the other bits of light and sound from everyone else. You become nothing more than the thumb operating your smartphone.&lt;/p&gt;
+
+&lt;p&gt;The key thing to remember is that you are not enriching your experiences by sharing them online; you’re detracting from them because all your efforts are focussed on making them look attractive to other people. Your experience of something, even if similar to the experience of many others, is unique and cannot be reproduced within the constraints of social media. So internalise that experience instead. Think about it. Go home and think about it some more. Write about it in more than 140 characters; on paper even. Paint a picture of it. Talk about it face to face with your friends. Talk about how it made you feel.&lt;/p&gt;
+
+&lt;p&gt;Once you stop seeing things through the eyes of the people following you on Twitter or Facebook or Instagram you become able to make experiences your own. You can relieve yourself of the burden of having to make everyone aware of what you&amp;rsquo;re doing at all times. You can make your experiences significant because you were there and you saw the sights and smelled the smells and heard the sounds, not because you snapped a photo of it through a half-inch camera lens built into your phone.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Discussion over at &lt;a href=&quot;https://news.ycombinator.com/item?id=5491611&quot;&gt;Hacker News&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Climbing the fig tree</title>
+   <link href="http://jshak.es/climbing-the-fig-tree"/>
+   <updated>2013-03-27T17:30:00-04:00</updated>
+   <id>http://jshak.es/climbing-the-fig-tree</id>
+   <content type="html">&lt;blockquote&gt;&lt;p&gt;&amp;ldquo;I saw my life branching out before like the green fig-tree in the story… I saw myself sitting there in the crotch of this fig-tree, starving to death, just because I couldn&amp;rsquo;t make up my mind which of the figs I would choose. I wanted each and every one of them, but choosing one meant losing all the rest, and, as I sat there, unable to decide, the figs began to wrinkle and go black, and, one by one, they plopped to the ground at my feet.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;—Sylvia Plath, &lt;em&gt;The Bell Jar&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As a web developer in my twenties I often feel overwhelmed by the sheer breadth and depth of the potential career paths open to me. Working in an underskilled, high-value industry where money is practically thrown at anything resembling a good idea feels just about as close to being the kid in the proverbial candy shop as one can get.&lt;/p&gt;
+
+&lt;p&gt;Yet I&amp;rsquo;m starting to feel increasingly like Esther Greenwood sitting in the fig tree. Admiring the abundance of choices but at the same time frozen with indecision and the fear that the branch will break when I set out to pick one of them.&lt;/p&gt;
+
+&lt;p&gt;While I and everyone else working in the tech industry scurries around, reaping its bounty, picking the low-hanging fruit, part of me can&amp;rsquo;t help but wonder: where is it going? Will I still be doing this in twenty years time? Do I even want to be doing this in twenty years time? Will I have exhausted the desire I have now to write code?&lt;/p&gt;
+
+&lt;p&gt;Will the fig I choose have wrinkled before I even get to it?&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s certainly unproductive and paranoid to assume that when things are going well the rug will suddenly be pulled out from underneath you. Tragic is the figure who spends all summer worrying about provision for winter. Nonetheless, the need to look up in one&amp;rsquo;s career is universally relevant and essential. To assume that there will always be jobs, demand and money is at best imprudent and at worst dangerous. Most of all, to assume that what you&amp;rsquo;re doing right now will still be a personally rewarding and challenging career in twenty years time &amp;ndash; or to assume that you will be swept into new and exciting and challenging areas by forces beyond your control &amp;ndash; is wishful thinking.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not saying you should sit down and plan out a roadmap for your entire career, or even that you could if you wanted to. But it is important to have some idea of what you hope to find when you reach the upper echelons of your profession. To not consider what lies at the end of the branch is to reactively feel your way through your career based solely on your current circumstances. But by picking a fig to progress towards you afford yourself context and foresight that will inform the choices you make along the way.&lt;/p&gt;
+
+&lt;p&gt;In the short term this can mean recognising where areas relevant to your current job will flourish and adjusting your climb accordingly, say, learning a new programming language because you think it will be a big deal in a few years time. And in the longer term, having that aspirational fig at the end of the branch will help you make life decisions that go deeper and are ultimately more rewarding than the impulsive snatch and grab of the young careerist.&lt;/p&gt;
+
+&lt;p&gt;Just as it&amp;rsquo;s important not to be frozen with indecision, it&amp;rsquo;s pointless to start climbing without aiming for something that transcends the situation you&amp;rsquo;re in now. Otherwise you might reach the top and still starve to death, albeit whilst looking at a nicer view.&lt;/p&gt;
+
+&lt;h3&gt;&lt;/h3&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The dire state of Wordpress</title>
+   <link href="http://jshak.es/the-dire-state-of-wordpress"/>
+   <updated>2013-03-19T03:09:40-04:00</updated>
+   <id>http://jshak.es/the-dire-state-of-wordpress</id>
+   <content type="html">&lt;p&gt;Wordpress powers a massive tranche of the world&amp;rsquo;s websites &amp;ndash; &lt;a href=&quot;http://en.wordpress.com/stats/&quot;&gt;17.4% of them&lt;/a&gt; in fact, including this one. Over the years its huge community and ease-of-use as a CMS has won it favour with web developers looking for out-of-the-box solutions to homogeneous client briefs. The admin is friendly and clients tend to get to grips with it quickly, making it a good choice for agency environments where the customer may not be savvy enough to wrap their heads around a bespoke but hokey UI.&lt;/p&gt;
+
+&lt;p&gt;Its weakness lies in how it has evolved, or rather mutated, from a blogging platform to pseudo-framework in a highly inelegant way. Functionality has been added along the road to accommodate WP&amp;rsquo;s growing use as a CMS: custom post types, custom menus etc &amp;ndash; but really these are just hacks to a platform that fundamentally still behaves like blogging software.&lt;/p&gt;
+
+&lt;p&gt;When you learn PHP from Wordpress as I (and probably many other people) did, you just assume that all the idiosyncrasies and illogicalities are par for the course when building a CMS-driven site. It&amp;rsquo;s taken me several years to realise that it doesn&amp;rsquo;t have to be like this. In fact, it wasn&amp;rsquo;t really until I started learning more about OO principles and working with frameworks that I started looking at WP in a different light. Why &lt;em&gt;is&lt;/em&gt; every instance of every model treated like a post? Why can&amp;rsquo;t I extend the functionality of a post type without writing a whole mess of hooks, filters and functional code into a file that isn&amp;rsquo;t semantically related to that post in any way?&lt;/p&gt;
+
+&lt;p&gt;These may sound like the gripes of someone whose needs will never be met by something like Wordpress, but the lack of fundamental logic that gives rise to the above issues is what makes Wordpress problematic for developers at all levels. And because the crossover on the venn diagram of &amp;lsquo;people who know good application development practises&amp;rsquo; and &amp;lsquo;people who build sites in Wordpress&amp;rsquo; is such a thin sliver, it just trundles along in its current hokey state, baffling both the unseasoned and the proficient developer alike.&lt;/p&gt;
+
+&lt;p&gt;Before leaving my last job I had to hand over several codebases to PHP developers who work mainly in Symfony. If I&amp;rsquo;d had a penny for every raised eyebrow when I was talking them through it I could have retired there and then. I&amp;rsquo;d also just spent a few weeks with a junior employee getting him up and running with WP sites. Trying to describe how code works on a platform that has the kind of fundamental logic that Wordpress does is like trying to teach a language that doesn&amp;rsquo;t have an alphabet. I would discourage anyone from learning it until they’re more au fait with a platform that operates on better principles. Basically, Wordpress isn&amp;rsquo;t a platform suited to anyone except those unlucky enough to have somehow become Wordpress developers.&lt;/p&gt;
+
+&lt;p&gt;If you think I&amp;rsquo;m exaggerating or being deliberately hyperbolic to prove a point, take a look at &lt;a href=&quot;https://github.com/WordPress/WordPress/tree/master/wp-content/themes/twentytwelve&quot;&gt;Twenty Twelve&lt;/a&gt;, currently the default theme for WP and developed by Automattic. (Why is it in a directory called &amp;lsquo;wp-content&amp;rsquo; when it&amp;rsquo;s actually a bunch of views? Who knows). Click through to &lt;a href=&quot;https://github.com/WordPress/WordPress/blob/master/wp-content/themes/twentytwelve/functions.php&quot;&gt;functions.php&lt;/a&gt; &amp;ndash; one file to manage ALL the extraneous functionality specified by the theme. This file contains functions for customising registration page layouts, comment handling, printing post meta and so on. HTML snippets sit fragmented between ifs and elses, loops and comment blocks that make Tolstoy look like Dr Seuss. It’s just an ugly, unreadable, unscalable mess of spaghetti code.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not going to list all the things that make WP at odds with best practises, but here are the brass tacks:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Views, controllers and data are mangled together in a way that makes even the most well-written themes hard to maintain.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Helper functions are &lt;a href=&quot;http://lorib.me/code/dont-get-the-permalink/&quot;&gt;inconsistent&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There are no rules or best practices for theme development, so inheriting legacy code is a nightmare.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Designers and front-end developers struggle to make changes because their files are full of functional code&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;PHP developers struggle to make changes because their files are full of template code&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It&amp;rsquo;s not optimised for speed of development or speed of operation.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There are about fifty ways to perform any given operation in Wordpress, but determining which way is best pretty much depends who you talk to. Even the &lt;a href=&quot;http://codex.wordpress.org/Function_Reference/query_posts&quot;&gt;documentation&lt;/a&gt; is chock full of caveats about obscure scenarios in which you should and shouldn’t use certain functions&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h4&gt;Why is all this a problem?&lt;/h4&gt;
+
+&lt;p&gt;Wordpress' growth isn&amp;rsquo;t going to stop. For agencies and designers it&amp;rsquo;s becoming a de facto platform for cookie-cutter websites with a development time of roughly 10-100 hours. This isn&amp;rsquo;t necessarily a problem if you&amp;rsquo;re a competent developer and know the ins and outs of WP, but undoubtedly anyone working in this field will inherit legacy WP code from time to time. And because Wordpress doesn&amp;rsquo;t insist on any kind of template structure beyond a basic naming convention, codebase inheritance requires an unsustainable investment of time to figure just what the hell is going on. Even a fairly tidy theme probably won’t look remotely like any of yours.&lt;/p&gt;
+
+&lt;h4&gt;Why not just use something else?&lt;/h4&gt;
+
+&lt;p&gt;Because Wordpress is still far and away the best off-the-shelf platform for small to medium size websites. It has arguably the best UI, a ton of features that come for free, a huge community of developers and all of the benefits that come with being a hugely popular piece of software. These things are much harder to come by than a decent codebase.&lt;/p&gt;
+
+&lt;h4&gt;What should be done?&lt;/h4&gt;
+
+&lt;p&gt;Wordpress needs more rules. People treat it like a framework and largely it is, but it lacks the scalability and rules that make frameworks worth using. Instead of forcing front-end developers and back-end developers to share the same resources there needs to be some separation of design and functionality. Having more rules would make inheriting code and working in a team easier. It would mean developers with framework-agnostic coding principles would be able to quickly get up and running within Wordpress sites without having to learn a backwards and entirely domain-specific vernacular.&lt;/p&gt;
+
+&lt;h4&gt;Wordpress is OSS, why don&amp;rsquo;t you shut up and do it yourself?&lt;/h4&gt;
+
+&lt;p&gt;The kind of rewrite I&amp;rsquo;m talking about would require a fundamental rethink of the entire platform. We&amp;rsquo;re talking thousands of man-hours for no direct financial reward. If Automattic were to do this it would require a shakeup of their business model, given they don&amp;rsquo;t make any money directly from the Wordpress codebase.&lt;/p&gt;
+
+&lt;p&gt;But this doesn&amp;rsquo;t mean it couldn&amp;rsquo;t or shouldn&amp;rsquo;t be attempted. If Wordpress is going to continue to power the world&amp;rsquo;s highest traffic websites then it&amp;rsquo;s in the interest of a vast number of developers to refactor it into a logical, scaleable, easily inheritable platform. As I see it, the solution would be to migrate the functional aspects of Wordpress to a PHP MVC framework, much like Drupal has recently done by incorporating Symfony 2. However, one cannot simply be melded into the other, and a lot of cherry picking would be required to avoid bloat.&lt;/p&gt;
+
+&lt;p&gt;So consider this post to be the start of a &lt;a href=&quot;https://news.ycombinator.com/item?id=5407879&quot;&gt;discussion&lt;/a&gt; about how this can happen. I ain&amp;rsquo;t quittin' you yet, Wordpress.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Don't worry that your job is pointless</title>
+   <link href="http://jshak.es/dont-worry-that-your-job-is-pointless"/>
+   <updated>2013-03-11T12:11:42-04:00</updated>
+   <id>http://jshak.es/dont-worry-that-your-job-is-pointless</id>
+   <content type="html">&lt;p&gt;A fellow developer friend and I often used to enjoy validating our career choices by comparing them to the &amp;lsquo;unproductive&amp;rsquo; careers of our investment banker friends who were earning twice as much as us. We would scoff at the life choice of someone to pursue a career so utterly vacuous and money-driven. How could anyone be content to just &lt;em&gt;earn&lt;/em&gt;? Surely the great calling of humankind is to create, to build, to give back.&lt;/p&gt;
+
+&lt;p&gt;But upon recently re-reading Tim Kreider&amp;rsquo;s now famous New York Times article &lt;a href=&quot;http://opinionator.blogs.nytimes.com/2012/06/30/the-busy-trap/&quot;&gt;&lt;em&gt;The Busy Trap&lt;/em&gt;&lt;/a&gt;, a particular sentence has been replaying itself in my mind. Kreider surmises that &amp;ldquo;if your job wasn’t performed by a cat or a boa constrictor in a Richard Scarry book I’m not sure I believe it’s necessary&amp;rdquo;. If bankers fall into this category, then so surely do web developers.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve known my oldest friend, Pete, since the age of ten. Even at that age he knew that he wanted to be a doctor. Between the ages of ten and eighteen I considered being a physicist, engineer, architect and bohemian skater layabout as career paths before eventually settling on graphic designer &amp;ndash; probably the least prestigious job on that list and one I haven&amp;rsquo;t even ended up doing. Pete worked hard right through school, sixth form and university, and now when I see him at Christmas and ask him what he&amp;rsquo;s been up to he&amp;rsquo;ll say &amp;ldquo;saving babies&amp;rdquo; or &amp;ldquo;working at a hospital in Uganda &amp;ndash; saving babies.&amp;rdquo; To say that I&amp;rsquo;ve been optimising the Javascript performance of a website for a company no one&amp;rsquo;s ever heard of sounds fairly trite by comparison.&lt;/p&gt;
+
+&lt;p&gt;The fact is that if all the web developers (or investment bankers) disappeared tomorrow the world wouldn&amp;rsquo;t change much &amp;ndash; at least not compared to doctors or nurses or firemen. There wouldn&amp;rsquo;t be a global meltdown. People wouldn&amp;rsquo;t die. And even though we try to justify our jobs in a universal sense by saying we&amp;rsquo;re &amp;lsquo;disrupting industries&amp;rsquo; or &amp;lsquo;democratising information&amp;rsquo; or whatever else, ultimately these tend to just be mantras we repeat to make ourselves feel like our work is more than just &amp;lsquo;doing what we want to do&amp;rsquo;. In reality, we do what we do because we&amp;rsquo;re good at it and doing it makes money. And if we are to be at peace with this, with doing the same thing every day for all our adult lives, there becomes a necessity to align our sense of purpose and self-worth with it.&lt;/p&gt;
+
+&lt;p&gt;I’ve certainly experienced my share of cognitive dissonance when it comes to determining the social value of my career. But, like most people in their twenties, I find it very hard not to derive a lot of my self-worth from that career. For any recent graduate taking their first steps onto the ladder, a job is the culmination of fifteen years of education and all of the hard work, money and striving that comes with them. It seems like the most important thing in the world because it&amp;rsquo;s what finally qualifies us as grown-ups. In career terms, being in your twenties is a time to be selfish, to take what you can and claw your way to the top. The consideration as to whether or not this career, this badge that we wear so proudly, is actually of any significance to the universe can wait until later. Right?&lt;/p&gt;
+
+&lt;p&gt;Wrong. Part of the reason people burn out and have mid-life crises is because they reach a point where they realise that they&amp;rsquo;ve given the best years of their life to a career that didn&amp;rsquo;t really mean anything. And because all their self-worth was built around their job title, when that becomes devalued then so does everything else.&lt;/p&gt;
+
+&lt;p&gt;The only healthy way to come to terms with doing a non-altruistic day job is to realise that life will offer you more opportunities to do good than you will find within the four walls of an office. There are plenty of people that do Richard Scarry jobs that don’t care what they do for a living as long as they can afford the lifestyle they want. Just as there are probably investment bankers who only care about making a ton of money so they can make life more comfortable for other people. The point is that if you obsess about pursuing a worthy career path, deluded by the sense that it&amp;rsquo;s the only way you will be a useful person, then you may well be forgoing the chance to profit from the talents that you were born with. Just because optimising Javascript isn&amp;rsquo;t making the world a better place right this second doesn&amp;rsquo;t mean you&amp;rsquo;re destined to a life of misanthropic selfishness.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s look at an example from my industry: Bill Gates. He founded and ran Microsoft on a policy of aggressive expansion and saturated the market with software that wasn&amp;rsquo;t really that great. But throughout his career he&amp;rsquo;s used his immense wealth to do more to alleviate poverty and disease around the world than he ever could had he decided to embark upon some virtuous and altruistic career thirty years ago.&lt;/p&gt;
+
+&lt;p&gt;I suppose what I&amp;rsquo;m saying is: don&amp;rsquo;t fret that your day job isn&amp;rsquo;t necessarily useful or altruistic or virtuous, but at the same time ensure that you are not defined by that job. A job provides the means, not necessarily the venue, to do good things.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Join the discussion on &lt;a href=&quot;https://news.ycombinator.com/item?id=5374387&quot;&gt;Hacker News&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Building for humans is hard</title>
+   <link href="http://jshak.es/building-for-humans-is-hard"/>
+   <updated>2013-02-23T06:00:04-05:00</updated>
+   <id>http://jshak.es/building-for-humans-is-hard</id>
+   <content type="html">&lt;p&gt;The greatest successes in the field of HCI are those that bend technology to the will of human need. But bridging the gap of silicon and flesh is arguably one of the hardest challenges that faces those working in the tech industry. Building anything technical requires technical thinking, but to step away from that and consider human factors, then back into the technical realm to serve those factors, is a rare skill indeed.&lt;/p&gt;
+
+&lt;p&gt;It is for this reason that getting it right with humanistic technical products is really hard. Making things work well for humans and for machines requires constant realignment of thinking. When writing code, one must be detail-oriented and take a granular approach. But as users we tend to view things in a holistic, top-down way: at first making sense of interface, then functionality, then breaking down individual process in our head. So in order to build something that is functionally sound but also usable, one must continually shift their perspective from bottom-up to top-down.&lt;/p&gt;
+
+&lt;p&gt;How then do we make the process of building human-friendly products easier? The most obvious and common approach is to do things in teams. If one person is focused on usability and one person on making it work at a technical level, then the end product will be informed by both machine and human-influenced thought processes. In reality, however, even close-knit teams are subject to drifting from a common goal. And what if you&amp;rsquo;re going it alone? There are certain heuristics that can be applied to humanistic design regardless of team size.&lt;/p&gt;
+
+&lt;h4&gt;Be ruthless about MVP&lt;/h4&gt;
+
+&lt;p&gt;Countless reams of blog posts and books have been written on the importance of sticking to an MVP, but more often than not this is for the simple reason that scope-creep and bloated functionality result in blown deadlines and budgets. When building a humanistically designed product, MVP becomes important becuse that added complexity can easily make your product less suited to the need of the target user.&lt;/p&gt;
+
+&lt;h4&gt;Talk to people&lt;/h4&gt;
+
+&lt;p&gt;No web-based service that has ever gained substantial traction has got away with not thinking about how to tailor their product to real people. Who are you really building for? Children? Adults? Restauranteurs? French horn players? Even if you think you are building for yourself then at least find someone like-minded and get them to take a look at your product. The value of external input should never be overlooked for the simple reason that they don&amp;rsquo;t know what&amp;rsquo;s going on behind the scenes. While your mind is cluttered with wireframes and code, they are innocent and bright-eyed, unfettered by the hours you spent tearing your hair out fixing bugs. A fresh pair of eyes can do something that yours can never do, and that is to see the product in a completely holistic way.&lt;/p&gt;
+
+&lt;h4&gt;Don&amp;rsquo;t be a magpie&lt;/h4&gt;
+
+&lt;p&gt;It&amp;rsquo;s easy to be distracted by the possibilities afforded to you by shiny new technology. But in order to keep your product lean and user-centric it&amp;rsquo;s important to evaluate any new technology through the filter of &amp;ldquo;is this improving the product for the user&amp;rdquo;?&lt;/p&gt;
+
+&lt;p&gt;Just because a couple of extra lines of code make your product navigable via webcam-based semaphore detection doesn&amp;rsquo;t mean you should necessarily add them. The added layer of complexity, i.e. having to learn semaphore to use your product, can easily put people off. An even greater danger is basing your entire product around a new technology. Indeed, part of the reason so many startups fail is because they try to use technology to solve problems that no users actually have, and therefore end up with a technically exciting but ultimately useless product.&lt;/p&gt;
+
+&lt;h4&gt;Wear hats&lt;/h4&gt;
+
+&lt;p&gt;Wear a developer hat when you&amp;rsquo;re knee-deep in views and controllers, but routinely take that hat off, put it to one side, and put on your user hat. Stop thinking about the functionality of your product and look at it from the perspective of a human being. Always thinking like a machine will only result in a machine-friendly product. It&amp;rsquo;s important to take a step back and inject some humanity into what you&amp;rsquo;re building.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Self-started projects: invest as much as you can, as early as you can</title>
+   <link href="http://jshak.es/when-it-comes-to-good-ideas-invest-as-much-as-you-can-as-early-as-you-can"/>
+   <updated>2012-12-27T15:03:08-05:00</updated>
+   <id>http://jshak.es/when-it-comes-to-good-ideas-invest-as-much-as-you-can-as-early-as-you-can</id>
+   <content type="html">&lt;blockquote&gt;&lt;p&gt;&amp;ldquo;Think about it really hard, then forget about it&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;—Don Draper, Mad Men&lt;/p&gt;
+
+&lt;p&gt;This oft-quoted soundbite may well be the essence of the creative process. Great ideas do not come whilst sitting at a desk for eight hours a day but whilst taking a shower or immediately before falling asleep. It&amp;rsquo;s the methodology of the &amp;lsquo;creative soak&amp;rsquo;: just as dishes are easier to clean when they&amp;rsquo;ve been sitting overnight in the sink, a project is much easier to tackle when it&amp;rsquo;s been mulled over by the subconscious mind for a few days. It&amp;rsquo;s about engaging as much of your brain as possible to the task at hand, so that even your down-time becomes potential brainstorming territory.&lt;/p&gt;
+
+&lt;p&gt;Yet when it comes to self-started projects, lacking the driving forces of external deadlines or budget, it&amp;rsquo;s not enough to just &amp;lsquo;think hard&amp;rsquo; about something. It&amp;rsquo;s important to invest assets to offset the inevitable decay of enthusiasm and flow of ideas over time. Existing commitments will often come first and increase the decay rate of your idea. To ensure that you stay enthusiastic and on track it&amp;rsquo;s important to raise the stakes as quickly as possible.&lt;/p&gt;
+
+&lt;p&gt;There are several ways to do this. The first and most obvious form of capital is time. Time is arguably the most valuable commodity at your disposal and is how we judge the worth of most things in life &amp;ndash; especially in a professional sense. The sooner you start pouring time into a project, the sooner it will attain a valuable status in your life. In other words, you&amp;rsquo;re much less likely to let your killer idea slide to the bottom of the pile if you&amp;rsquo;ve already logged a few days of your time against it.&lt;/p&gt;
+
+&lt;p&gt;Money is another form of investment, and one which has a universal value. It&amp;rsquo;s not always as appropriate to spend money on an idea as it is to spend time, but if there are physical things needed to progress the idea, get them early on. A domain name is an obvious example.&lt;/p&gt;
+
+&lt;p&gt;Another asset is reputation. Start talking about your idea, telling friends and colleagues. If you&amp;rsquo;re enthused about something then people will ask you about it the next time they see you &amp;ndash; &amp;ldquo;how&amp;rsquo;s that project going?&amp;rdquo;. If your response is always that you&amp;rsquo;ve &amp;ldquo;been too busy&amp;rdquo; then you&amp;rsquo;re damaging your own reputation, so this should give you further incentive to knuckle down.&lt;/p&gt;
+
+&lt;p&gt;What you should be aiming for by investing these assets is to assign value to your idea so that you come to care about it. Get your idea to the point where, by not working on it, you feel guilty and it nags at you.&lt;/p&gt;
+
+&lt;p&gt;Of course, it&amp;rsquo;s important to remember that you do not have unlimited assets. Just as you wouldn&amp;rsquo;t bet all your chips on every hand you&amp;rsquo;re dealt in poker, don&amp;rsquo;t start throwing time, money and reps at every idea that pops into your head. There is no metric for measuring the viability of ideas, but the chances are you will know when you hit upon something good. When that idea comes, write it down and immediately start allocating resources to invest in it. Over time you will get better at recognising where you will get a good ROI.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Product placement is fine (in its place)</title>
+   <link href="http://jshak.es/product-placement"/>
+   <updated>2012-11-29T05:10:08-05:00</updated>
+   <id>http://jshak.es/product-placement</id>
+   <content type="html">&lt;p&gt;With great movie franchises come great advertising opportunities, and few are more lucrative than James Bond. &lt;em&gt;Skyfall&lt;/em&gt;, being the most expensive Bond film to date, has had a heavy and controversial reliance on product placement that has seen historic advertising contracts (Heineken having paid a reported £28 million for the usurping of the iconic vodka martini).&lt;/p&gt;
+
+&lt;p&gt;This isn&amp;rsquo;t going to be another polemic about the inclusion of very &amp;lsquo;non Bond&amp;rsquo; brands in this film &amp;ndash; the internet has been awash with them since the film&amp;rsquo;s release &amp;ndash; and it would be naïve to think that a movie with such a tumultuous production history and sky-high budget would have been possible without such deals. I will make this observation about product placement in films, though: it has the unfortunate effect of alienating only the people who care most about films. Product placement &amp;lsquo;done right&amp;rsquo; is the ideal marketing tool for most brands, making a subliminal connection in all but a handful of viewers who, whilst not having noticed its presence during the film itself, can be targeted outside the cinema with cross-media advertising that will help cement the product in their minds. The problem is that these are the casual cinema-goers, the people that whisper &amp;ldquo;is that the guy from earlier? I thought he was dead&amp;rdquo; and seem to absorb only the most tacit elements of the plot required to string together some form of narrative in their heads.&lt;/p&gt;
+
+&lt;p&gt;But for the people that watch a lot of films, the people that spend a not inisgnificant portion of their income on DVDs and cinema tickets and Netflix subscriptions (ie, the consumers actually contributing to the ongoing existence of the industry), the syntax of the motion picture is well established. This means that when the close-up shot rests on Daniel Craig&amp;rsquo;s hand changing gear for just a fraction of a second too long so as to highlight his Omega wristwatch, it&amp;rsquo;s like having the demon head of the exorcist flash onto the screen.&lt;/p&gt;
+
+&lt;p&gt;Suddenly the whole fun of engrossing yourself in a film &amp;ndash; spotting subtle gestures of the actors, predicting plot twists, admiring sets and costume &amp;ndash; becomes a punishment. Like the boom mic dropping into shot or the extra looking into the camera for a split second, it jars the viewer back into the real world and reminds them that it&amp;rsquo;s just a film after all.&lt;/p&gt;
+
+&lt;p&gt;This may seem a minor gripe for a phenomenon that is, after all, facilitating the production of increasingly spectacular movies in an industry struggling to pull in revenue, and furthermore one that only blights the $100m+ budget films. Honestly, to say that the product placement in Skyfall was any more than a minor annoyance would be an exaggeration. But it is worthy of discussion as it raises the very real prospect that product placement could become a defacto source of funding for big budget films. In an age where movie studios know a picture will be watched illegally by an increasing number of people it seems the only sure-fire way to guarantee the books will be balanced. What&amp;rsquo;s more, it provides risk-free capital before the film is even made, making the film more financially attractive to all parties and helping attract further investment.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s really what this comes down to &amp;ndash; catering to the people with the money. Film is the last virgin territory of the marketeer, every other form of media having become saturated, if not designed around, advertising. In an age where entertainment is considered a basic human right, it follows that studios would rather chase investment than revenue, given how reluctant consumers are to give up their hard earned cash in exchange for a few hours' spectacle.&lt;/p&gt;
+
+&lt;p&gt;So let&amp;rsquo;s hope that for now product placement stays in the realm of the mega-budget summer blockbusters. Because the more money these movies make, the more likely it is that the quirky, independent film is to get produced the following year.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Being a jack-of-all-trades to master one</title>
+   <link href="http://jshak.es/being-a-jack-of-all-trades-to-master-one"/>
+   <updated>2012-11-03T07:57:31-04:00</updated>
+   <id>http://jshak.es/being-a-jack-of-all-trades-to-master-one</id>
+   <content type="html">&lt;p&gt;People that have known me for a few years will know that I never planned to be a web developer, but rather to go into graphic and print design. In fact, until about six months ago the header on this site still read &amp;lsquo;portfolio of web and graphic designer James Shakespeare&amp;rsquo;. It was always my dream to design great logos, books, magazines and typefaces,  one day having my own graphic design studio and being the next Alan Fletcher. I only began designing web pages as a means of making money while I was still at school, and by the time I started my BSc I realised I was more interested in the implementation of good websites than I was in simply how they looked.&lt;/p&gt;
+
+&lt;p&gt;As my time at university progressed I moved from being a sketchbook-carrying art student to sandal and sock-wearing, monitor-propped-up-with-O'Reilly-books developer, covering a lot of ground in between. When I moved into the &amp;lsquo;real world&amp;rsquo; I was worried that I&amp;rsquo;d spread myself too thinly across the web design spectrum and would only be valuable to small, under-skilled businesses requiring a full-stack developer. I was scared of specialising because I felt I would be wasting the skills I had learned in other areas of the web design process.&lt;/p&gt;
+
+&lt;p&gt;What I didn&amp;rsquo;t realise was that having this broad, jack of all trades background is probably the best way to become good at what you do. Having a good grasp of what other people in your team are doing makes you much better at your job. By taking an active and ongoing interest in the entire process of your company&amp;rsquo;s output you not only become better aware of the factors that affect how you do your job, but you also stay hungry and excited for the new ways in which the industry is moving. It also ensures that as a person you don&amp;rsquo;t stagnate. If you aren&amp;rsquo;t constantly pushing at the edges of what is considered to be the remit of your job you will trap yourself in a bubble that prevents career development and will soon leave you behind the times.&lt;/p&gt;
+
+&lt;p&gt;Yesterday I sat down and talked to one of our senior developers for about an hour on how AWS works, what services they offer, and how to set up new instances and databases. I&amp;rsquo;m not a sysadmin, and that was an hour I could have spent swotting up on ways to better deliver projects I was working on, or just hacking out more code. Instead I now have a better grasp of the machines my code runs on, how much that costs us and how I could&lt;em&gt; &lt;/em&gt;(but hope never to have to) move data around or restore machines. I&amp;rsquo;ve increased the number and breadth of potential conversations I can have with other developers, clients, maybe even sysadmins.&lt;/p&gt;
+
+&lt;p&gt;Perhaps the best thing about taking this approach to your career: you become more aware of the challenges and pressures facing your coworkers, and what is required of them to produce the assets for you to do your job and vice versa. That&amp;rsquo;s not a career thing per se, it just makes you a nicer person to work with.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Why App.net (unfortunately) won't work</title>
+   <link href="http://jshak.es/why-app-net-unfortunately-wont-work"/>
+   <updated>2012-10-22T18:20:52-04:00</updated>
+   <id>http://jshak.es/why-app-net-unfortunately-wont-work</id>
+   <content type="html">&lt;p&gt;I&amp;rsquo;ll start out by saying that while this post will probably come across as cynical, I do genuinely want &lt;a href=&quot;http://join.app.net&quot;&gt;App.net&lt;/a&gt; to work. Competition is always healthy  and what I&amp;rsquo;ve seen of the Alpha platform so far is encouraging. Anyone who can raise $750,000 on Kickstarter is clearly onto something and should be taken seriously. There are, however, fundamental issues with the project&amp;rsquo;s approach that are at odds with successful user-based services on the web.&lt;/p&gt;
+
+&lt;h4&gt;Twitter&lt;/h4&gt;
+
+&lt;p&gt;Let&amp;rsquo;s get this one out of the way first. While App.net doesn&amp;rsquo;t claim to be a competitor to Twitter, people will always compare the two. Describing App.net to a layperson in these early stages always results in the response: &amp;ldquo;Oh, a micro-blogging service? Like Twitter?&amp;rdquo;. Now I&amp;rsquo;m not suggesting that Twitter&amp;rsquo;s dominance of this medium should go unchallenged. The problem is this: &lt;em&gt;Twitter is fine&lt;/em&gt;. It has its flaws, sure; the API is a little hokey and not amazingly well documented, it goes down from time to time, etc. But it&amp;rsquo;s not doing anything badly enough to make users cry out for an alternative. As a developer (and historically amongst the main audience for the project) I really don&amp;rsquo;t have any major problems with Twitter. In fact, if nothing else, App.net would simply become yet another platform to cater for, and as a lazy person I am opposed to this.&lt;/p&gt;
+
+&lt;h4&gt;Dalton Caldwell is building for Dalton Caldwell&lt;/h4&gt;
+
+&lt;p&gt;Watching the introductory &lt;a href=&quot;http://vimeo.com/48111032&quot;&gt;video&lt;/a&gt; for App.net, presented by their founder and CEO, one thing jumped out at me. He says the words &amp;lsquo;me&amp;rsquo;, &amp;lsquo;I&amp;rsquo; and &amp;lsquo;we&amp;rsquo; a hell of a lot. This project hasn&amp;rsquo;t arisen from some great outcry amongst web users, it&amp;rsquo;s arisen as a personal solution for Caldwell&amp;rsquo;s own sense of feeling &amp;lsquo;let down&amp;rsquo; by free web 2.0 services. There&amp;rsquo;s nothing wrong with building for yourself, as long as you don&amp;rsquo;t expect anyone else to care. I don&amp;rsquo;t doubt that there are people out there that share his sentiment, and clearly there must be given the project&amp;rsquo;s overwhelmingly popular response on Kickstarter; but when building a social network, solipsism isn&amp;rsquo;t a great starting point.&lt;/p&gt;
+
+&lt;h4&gt;Kickstarter investment isn&amp;rsquo;t real value&lt;/h4&gt;
+
+&lt;p&gt;While App.net did raise a hugely impressive three-quarters of a million on Kickstarter, this figure isn&amp;rsquo;t really as significant as it sounds. Because it is made up of thousands of small donations, as opposed to several large ones, the money doesn&amp;rsquo;t carry as much weight as that raised through VC or angel investment. The donators aren&amp;rsquo;t looking for good ROI and therefore aren&amp;rsquo;t evaluating it as a business venture, just as something they&amp;rsquo;d like to see. Lots of things raise money on Kickstarter, and they &lt;a href=&quot;http://www.outsideonline.com/blog/outdoor-adventure/fatbike-expedition-comes-to-a-halt.html&quot;&gt;aren&amp;rsquo;t always profitable&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4&gt;It isn&amp;rsquo;t open source&lt;/h4&gt;
+
+&lt;p&gt;Despite the obvious attempt to appeal to developers, bizarrely App.net have overlooked what would surely be the best way to get people on board: open sourcing it. All the developers I know are cynical when it comes to branding and spiel, but give them an opportunity to tear something apart and figure out how it works and they&amp;rsquo;ll be more likely to get on board. What&amp;rsquo;s more is that a developer account for access to the API currently stands at $100 p/a &amp;ndash; surely a huge barrier to casual developers and hackers looking to play around.&lt;/p&gt;
+
+&lt;h4&gt;It will never go mainstream&lt;/h4&gt;
+
+&lt;p&gt;One of the big selling points of App.net is that they are &amp;lsquo;selling their product, not their users&amp;rsquo;. By using a subscription payment model, there is no catering to advertisers or selling off data to third parties.  This is certainly a healthy ideology, and there&amp;rsquo;s no denying that there are serious issues facing data privacy on social networks. The problem is that most people simply don&amp;rsquo;t care about data privacy&lt;em&gt;. &lt;/em&gt;Facebook&amp;rsquo;s questionable approach to data protection has been blown open in the past few months, but has it affected user figures?&lt;/p&gt;
+
+&lt;p&gt;As for as advertising is concerned, advertisements invade our privacy every day, across every imaginable form of media. They are often well-targeted and invasive but we learn to filter them out. Premium models do work: mobile apps offering an ad-supported but free version or a no-ad premium version are becoming the norm; but the majority will always go for the free version. In this instance, the free version is Twitter.&lt;/p&gt;
+
+&lt;p&gt;In fact, I&amp;rsquo;d go so far as to say that even if App.net were free, it would still not attract a paradigm-shiftingly large user base. Take Google+ as an example &amp;ndash; it&amp;rsquo;s a better product than Facebook in almost every way, but it hasn&amp;rsquo;t attracted a large user-base because Facebook is so well established. For the average user it would be a hassle to migrate over to a new platform, and would mean bringing a substantial quotient of contacts with them (I tried this last year with Google+ and believe me, it doesn&amp;rsquo;t work).&lt;/p&gt;
+
+&lt;p&gt;None of this is a problem if App.net is only interested in cultivating a niche, developer-centric community, but do developers really just want to build things for other developers? Given the choice between building an app for a potential platform of 100,000 or 100m, I know which one I&amp;rsquo;d choose &amp;ndash; especially if it has commercial intent.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d love to look back on this post in a couple of years time in the way we know scoff at news videos from the 80s saying nothing will ever come of the Internet. Sadly though, that&amp;rsquo;s not going to happen until App.net start talking to more users and fewer Silicon Valley gentry.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

@@ -1,0 +1,23 @@
+// Header
+
+.site-header{
+  text-align: center;
+  padding: 4em 0;
+}
+.site-header-title{
+  font-size: 2em;
+  color: $body_copy;
+  text-decoration: none;
+}
+
+// Post index
+
+.article-permalink{
+  font-size: 2em;
+  display: block;
+  text-align: center;
+  padding: 1em 25%;
+  &:hover{
+    
+  }
+}

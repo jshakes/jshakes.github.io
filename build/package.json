@@ -1,0 +1,24 @@
+{
+  "name": "jshakes.github.io",
+  "version": "0.0.0",
+  "description": "Left is a clean, whitespace-happy layout for [Jekyll](https://github.com/mojombo/jekyll).",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jshakes/jshakes.github.io.git"
+  },
+  "author": "James Shakespeare",
+  "license": "BSD",
+  "readmeFilename": "readme.markdown",
+  "gitHead": "3fddbf5c4267a042422395d8ec68debe849f9a01",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-jekyll": "~0.4.1"
+  }
+}
