@@ -128,12 +128,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 42, ../_scss/common/_icons.scss */
-.icon-arrow-right {
+.icon-arrow-right, .post-navigation .next-post:after {
   content: "\e600";
 }
 
 /* line 45, ../_scss/common/_icons.scss */
-.icon-arrow-left, .back-to-posts:before {
+.icon-arrow-left, .back-to-posts:before, .post-navigation .previous-post:before {
   content: "\e607";
 }
 
@@ -440,12 +440,17 @@ p {
 }
 
 /* line 85, ../_scss/modules/_post.scss */
+.article-footer-text {
+  margin-bottom: 2em;
+}
+
+/* line 89, ../_scss/modules/_post.scss */
 .article-footer-buttons {
   text-align: center;
   margin: 0 0 2em;
 }
 
-/* line 90, ../_scss/modules/_post.scss */
+/* line 94, ../_scss/modules/_post.scss */
 .back-to-posts {
   font-style: normal;
   margin-right: 2em;
@@ -460,14 +465,88 @@ p {
   text-transform: none;
   line-height: 1;
 }
-/* line 95, ../_scss/modules/_post.scss */
+/* line 99, ../_scss/modules/_post.scss */
 .back-to-posts:before {
   font-size: .75em;
   margin-right: 1em;
 }
 
-/* line 101, ../_scss/modules/_post.scss */
+/* line 105, ../_scss/modules/_post.scss */
 .twitter-share-button {
   vertical-align: bottom;
   display: inline-block;
+}
+
+/* line 112, ../_scss/modules/_post.scss */
+.post-navigation {
+  font-size: 0;
+  display: table;
+  width: 100%;
+}
+/* line 117, ../_scss/modules/_post.scss */
+.post-navigation .previous-post,
+.post-navigation .next-post {
+  -webkit-transition: background, 0.25s;
+  -moz-transition: background, 0.25s;
+  -o-transition: background, 0.25s;
+  transition: background, 0.25s;
+  font-size: 16px;
+  display: table-cell;
+  width: 50%;
+  color: #e94127;
+  padding: 1em;
+  position: relative;
+  vertical-align: middle;
+  line-height: 1.25;
+}
+/* line 127, ../_scss/modules/_post.scss */
+.post-navigation .previous-post:hover,
+.post-navigation .next-post:hover {
+  background: #e94127;
+  color: white;
+}
+/* line 131, ../_scss/modules/_post.scss */
+.post-navigation .previous-post:before, .post-navigation .previous-post:after,
+.post-navigation .next-post:before,
+.post-navigation .next-post:after {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+}
+/* line 137, ../_scss/modules/_post.scss */
+.post-navigation .previous-post {
+  padding-left: 2em;
+}
+/* line 15, ../_scss/common/_icons.scss */
+.post-navigation .previous-post:before {
+  font-family: 'jshakes-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+/* line 140, ../_scss/modules/_post.scss */
+.post-navigation .previous-post:before {
+  left: .5em;
+}
+/* line 144, ../_scss/modules/_post.scss */
+.post-navigation .next-post {
+  text-align: right;
+  padding-right: 2em;
+}
+/* line 15, ../_scss/common/_icons.scss */
+.post-navigation .next-post:after {
+  font-family: 'jshakes-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+/* line 148, ../_scss/modules/_post.scss */
+.post-navigation .next-post:after {
+  right: .5em;
 }

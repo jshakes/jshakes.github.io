@@ -110,13 +110,11 @@
 // Post navigation
 
 .post-navigation{
-  font-size: 0;
   display: table;
   width: 100%;
   .previous-post,
   .next-post{
     @include transition(background, .25s);
-    font-size: 16px;
     display: table-cell;
     width: 50%;
     color: $red;
