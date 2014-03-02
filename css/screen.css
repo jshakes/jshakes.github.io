@@ -486,8 +486,9 @@ p {
 .post-navigation {
   display: table;
   width: 100%;
+  position: relative;
 }
-/* line 113, ../_scss/modules/_post.scss */
+/* line 114, ../_scss/modules/_post.scss */
 .post-navigation .previous-post,
 .post-navigation .next-post {
   -webkit-transition: background, 0.25s;
@@ -502,13 +503,13 @@ p {
   vertical-align: middle;
   line-height: 1.25;
 }
-/* line 122, ../_scss/modules/_post.scss */
+/* line 123, ../_scss/modules/_post.scss */
 .post-navigation .previous-post:hover,
 .post-navigation .next-post:hover {
   background: #e94127;
   color: white;
 }
-/* line 126, ../_scss/modules/_post.scss */
+/* line 127, ../_scss/modules/_post.scss */
 .post-navigation .previous-post:before, .post-navigation .previous-post:after,
 .post-navigation .next-post:before,
 .post-navigation .next-post:after {
@@ -516,7 +517,7 @@ p {
   top: 50%;
   margin-top: -8px;
 }
-/* line 132, ../_scss/modules/_post.scss */
+/* line 133, ../_scss/modules/_post.scss */
 .post-navigation .previous-post {
   padding-left: 2em;
 }
@@ -530,11 +531,11 @@ p {
   text-transform: none;
   line-height: 1;
 }
-/* line 135, ../_scss/modules/_post.scss */
+/* line 136, ../_scss/modules/_post.scss */
 .post-navigation .previous-post:before {
   left: .5em;
 }
-/* line 139, ../_scss/modules/_post.scss */
+/* line 140, ../_scss/modules/_post.scss */
 .post-navigation .next-post {
   text-align: right;
   padding-right: 2em;
@@ -549,7 +550,7 @@ p {
   text-transform: none;
   line-height: 1;
 }
-/* line 143, ../_scss/modules/_post.scss */
+/* line 144, ../_scss/modules/_post.scss */
 .post-navigation .next-post:after {
   right: .5em;
 }
