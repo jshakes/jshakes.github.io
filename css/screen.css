@@ -277,6 +277,7 @@ p {
 /* line 54, ../_scss/base/_layout.scss */
 .page-title, .article-title {
   font-size: 3em;
+  margin-bottom: 1em;
 }
 
 /* line 3, ../_scss/modules/_home.scss */
@@ -390,18 +391,17 @@ p {
 }
 /* line 29, ../_scss/modules/_post.scss */
 .article-header .article-publish-date {
-  margin: 3em 0 0;
   display: block;
 }
 
-/* line 35, ../_scss/modules/_post.scss */
+/* line 34, ../_scss/modules/_post.scss */
 .article-permalink {
   color: #444444;
   display: block;
   text-decoration: none;
 }
 
-/* line 45, ../_scss/modules/_post.scss */
+/* line 44, ../_scss/modules/_post.scss */
 .article-hero-image {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -413,44 +413,49 @@ p {
   margin: 0 0 2em;
 }
 
-/* line 54, ../_scss/modules/_post.scss */
+/* line 53, ../_scss/modules/_post.scss */
 .article-body {
   padding-bottom: 1.5em;
 }
-/* line 56, ../_scss/modules/_post.scss */
+/* line 55, ../_scss/modules/_post.scss */
 .article-body h3, .article-body h4, .article-body h5, .article-body h6 {
   padding: 1em 0 2em;
 }
-/* line 59, ../_scss/modules/_post.scss */
+/* line 58, ../_scss/modules/_post.scss */
 .article-body h3 {
   font-size: 2em;
 }
-/* line 62, ../_scss/modules/_post.scss */
+/* line 61, ../_scss/modules/_post.scss */
 .article-body h4 {
   font-size: 1.5em;
 }
-/* line 65, ../_scss/modules/_post.scss */
+/* line 64, ../_scss/modules/_post.scss */
 .article-body > p {
   margin: 0 0 1.5em;
 }
+/* line 70, ../_scss/modules/_post.scss */
+.article-body ul li {
+  margin: 0 0 2em;
+  list-style: disc;
+}
 
-/* line 75, ../_scss/modules/_post.scss */
+/* line 78, ../_scss/modules/_post.scss */
 .article-footer {
   font-style: italic;
 }
 
-/* line 79, ../_scss/modules/_post.scss */
+/* line 82, ../_scss/modules/_post.scss */
 .article-footer-text {
   margin-bottom: 2em;
 }
 
-/* line 83, ../_scss/modules/_post.scss */
+/* line 86, ../_scss/modules/_post.scss */
 .article-footer-buttons {
   text-align: center;
   margin: 0 0 2em;
 }
 
-/* line 88, ../_scss/modules/_post.scss */
+/* line 91, ../_scss/modules/_post.scss */
 .back-to-posts {
   font-style: normal;
   margin-right: 2em;
@@ -465,24 +470,24 @@ p {
   text-transform: none;
   line-height: 1;
 }
-/* line 93, ../_scss/modules/_post.scss */
+/* line 96, ../_scss/modules/_post.scss */
 .back-to-posts:before {
   font-size: .75em;
   margin-right: 1em;
 }
 
-/* line 99, ../_scss/modules/_post.scss */
+/* line 102, ../_scss/modules/_post.scss */
 .twitter-share-button {
   vertical-align: bottom;
   display: inline-block;
 }
 
-/* line 106, ../_scss/modules/_post.scss */
+/* line 109, ../_scss/modules/_post.scss */
 .post-navigation {
   display: table;
   width: 100%;
 }
-/* line 110, ../_scss/modules/_post.scss */
+/* line 113, ../_scss/modules/_post.scss */
 .post-navigation .previous-post,
 .post-navigation .next-post {
   -webkit-transition: background, 0.25s;
@@ -497,13 +502,13 @@ p {
   vertical-align: middle;
   line-height: 1.25;
 }
-/* line 119, ../_scss/modules/_post.scss */
+/* line 122, ../_scss/modules/_post.scss */
 .post-navigation .previous-post:hover,
 .post-navigation .next-post:hover {
   background: #e94127;
   color: white;
 }
-/* line 123, ../_scss/modules/_post.scss */
+/* line 126, ../_scss/modules/_post.scss */
 .post-navigation .previous-post:before, .post-navigation .previous-post:after,
 .post-navigation .next-post:before,
 .post-navigation .next-post:after {
@@ -511,7 +516,7 @@ p {
   top: 50%;
   margin-top: -8px;
 }
-/* line 129, ../_scss/modules/_post.scss */
+/* line 132, ../_scss/modules/_post.scss */
 .post-navigation .previous-post {
   padding-left: 2em;
 }
@@ -525,11 +530,11 @@ p {
   text-transform: none;
   line-height: 1;
 }
-/* line 132, ../_scss/modules/_post.scss */
+/* line 135, ../_scss/modules/_post.scss */
 .post-navigation .previous-post:before {
   left: .5em;
 }
-/* line 136, ../_scss/modules/_post.scss */
+/* line 139, ../_scss/modules/_post.scss */
 .post-navigation .next-post {
   text-align: right;
   padding-right: 2em;
@@ -544,7 +549,7 @@ p {
   text-transform: none;
   line-height: 1;
 }
-/* line 140, ../_scss/modules/_post.scss */
+/* line 143, ../_scss/modules/_post.scss */
 .post-navigation .next-post:after {
   right: .5em;
 }
