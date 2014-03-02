@@ -24,7 +24,7 @@
 
 .article-header{
   text-align: center;
-  margin: 3em 0;
+  margin: 0 0 3em;
 
   .article-publish-date{
     margin: 3em 0 0;
@@ -38,6 +38,9 @@
   text-decoration: none;
 }
 
+.article-title{
+  @extend .page-title;
+}
 
 .article-hero-image{
   @include border-radius(50%);
