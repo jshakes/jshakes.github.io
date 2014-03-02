@@ -28,6 +28,3 @@ I'm not saying you should sit down and plan out a roadmap for your entire career
 In the short term this can mean recognising where areas relevant to your current job will flourish and adjusting your climb accordingly, say, learning a new programming language because you think it will be a big deal in a few years time. And in the longer term, having that aspirational fig at the end of the branch will help you make life decisions that go deeper and are ultimately more rewarding than the impulsive snatch and grab of the young careerist.
 
 Just as it's important not to be frozen with indecision, it's pointless to start climbing without aiming for something that transcends the situation you're in now. Otherwise you might reach the top and still starve to death, albeit whilst looking at a nicer view.
-
-
-### 

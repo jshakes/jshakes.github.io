@@ -1,17 +1,21 @@
 .cta{
   @extend .aller-light;
-  @include border-radius(.5em);
   @include transition(background, .25s);
-  background: white;
   outline: none;
   color: $red;
-  border: 1px solid $red;
   display: inline-block;
-  padding: 1em 1.25em;
   text-transform: lowercase;
   font-size: 1em;
   &:hover{
     background: $red;
     color: white;
   }
+}
+
+.divider{
+  content: "\2767";
+  color: #ccc;
+  display: block;
+  font-size: 2em;
+  text-align: center;
 }

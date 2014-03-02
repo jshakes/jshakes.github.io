@@ -67,7 +67,109 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 1, ../_scss/_defaults.scss */
+/* line 1, ../_scss/common/_classes.scss */
+.cta, .back-to-posts {
+  -webkit-transition: background, 0.25s;
+  -moz-transition: background, 0.25s;
+  -o-transition: background, 0.25s;
+  transition: background, 0.25s;
+  outline: none;
+  color: #e94127;
+  display: inline-block;
+  text-transform: lowercase;
+  font-size: 1em;
+}
+/* line 9, ../_scss/common/_classes.scss */
+.cta:hover, .back-to-posts:hover {
+  background: #e94127;
+  color: white;
+}
+
+/* line 15, ../_scss/common/_classes.scss */
+.divider, .intro:after, .article-body:after {
+  content: "\2767";
+  color: #ccc;
+  display: block;
+  font-size: 2em;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'jshakes-icons';
+  src: url("/fonts/jshakes-icons.eot?i18epf");
+  src: url("/fonts/jshakes-icons.eot?#iefixi18epf") format("embedded-opentype"), url("/fonts/jshakes-icons.woff?i18epf") format("woff"), url("/fonts/jshakes-icons.ttf?i18epf") format("truetype"), url("/fonts/jshakes-icons.svg?i18epf#jshakes") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 27, ../_scss/common/_icons.scss */
+.icon-search {
+  content: "\e602";
+}
+
+/* line 30, ../_scss/common/_icons.scss */
+.icon-phone {
+  content: "\e603";
+}
+
+/* line 33, ../_scss/common/_icons.scss */
+.icon-hamburger {
+  content: "\e604";
+}
+
+/* line 36, ../_scss/common/_icons.scss */
+.icon-fb {
+  content: "\e605";
+}
+
+/* line 39, ../_scss/common/_icons.scss */
+.icon-email, .contact-link .contact-email:before {
+  content: "\e606";
+}
+
+/* line 42, ../_scss/common/_icons.scss */
+.icon-arrow-right {
+  content: "\e600";
+}
+
+/* line 45, ../_scss/common/_icons.scss */
+.icon-arrow-left, .back-to-posts:before {
+  content: "\e607";
+}
+
+/* line 48, ../_scss/common/_icons.scss */
+.icon-arrow-up {
+  content: "\e608";
+}
+
+/* line 51, ../_scss/common/_icons.scss */
+.icon-arrow-down {
+  content: "\e609";
+}
+
+/* line 54, ../_scss/common/_icons.scss */
+.icon-twitter, .contact-link .contact-twitter:before {
+  content: "\e601";
+}
+
+/* line 57, ../_scss/common/_icons.scss */
+.icon-jshakes-logo, .site-header-icon:before {
+  content: "\e60a";
+}
+
+/* line 60, ../_scss/common/_icons.scss */
+.icon-github, .contact-link .contact-github:before {
+  content: "\e60b";
+}
+
+/* line 1, ../_scss/base/_base.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, ../_scss/base/_base.scss */
 body {
   font-family: "Georgia", serif;
   font-size: 16px;
@@ -75,7 +177,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 12, ../_scss/_defaults.scss */
+/* line 18, ../_scss/base/_base.scss */
 p {
   line-height: 1.5;
 }
@@ -88,13 +190,13 @@ p {
   font-style: normal;
 }
 
-/* line 12, ../_scss/_fonts.scss */
+/* line 12, ../_scss/base/_fonts.scss */
 .aller {
   font-family: 'allerregular', arial;
 }
 
-/* line 16, ../_scss/_fonts.scss */
-.aller-light, .cta, .toggle-about-panel {
+/* line 16, ../_scss/base/_fonts.scss */
+.aller-light, .cta, .back-to-posts {
   font-family: 'aller_lightregular', arial;
 }
 
@@ -106,121 +208,44 @@ p {
   font-style: normal;
 }
 
-/* line 31, ../_scss/_fonts.scss */
-.aller-light, .cta, .toggle-about-panel {
-  font-family: 'aller_lightregular', arial;
+/* line 1, ../_scss/base/_layout.scss */
+.content-wrapper {
+  color: #444444;
+}
+/* line 3, ../_scss/base/_layout.scss */
+.content-wrapper a {
+  text-decoration: none;
+}
+/* line 6, ../_scss/base/_layout.scss */
+.content-wrapper p a {
+  background: #fef8b7;
+  color: #444444;
+}
+/* line 9, ../_scss/base/_layout.scss */
+.content-wrapper p a:hover {
+  text-decoration: underline;
 }
 
-/* line 1, ../_scss/_classes.scss */
-.cta, .toggle-about-panel {
-  -webkit-border-radius: 0.5em;
-  -moz-border-radius: 0.5em;
-  -ms-border-radius: 0.5em;
-  -o-border-radius: 0.5em;
-  border-radius: 0.5em;
-  -webkit-transition: background, 0.25s;
-  -moz-transition: background, 0.25s;
-  -o-transition: background, 0.25s;
-  transition: background, 0.25s;
-  background: white;
-  outline: none;
-  color: #e94127;
-  border: 1px solid #e94127;
-  display: inline-block;
-  padding: 1em 1.25em;
-  text-transform: lowercase;
-  font-size: 1em;
-}
-/* line 13, ../_scss/_classes.scss */
-.cta:hover, .toggle-about-panel:hover {
-  background: #e94127;
-  color: white;
-}
-
-@font-face {
-  font-family: 'jshakes-icons';
-  src: url("/fonts/jshakes-icons.eot?i18epf");
-  src: url("/fonts/jshakes-icons.eot?#iefixi18epf") format("embedded-opentype"), url("/fonts/jshakes-icons.woff?i18epf") format("woff"), url("/fonts/jshakes-icons.ttf?i18epf") format("truetype"), url("/fonts/jshakes-icons.svg?i18epf#jshakes") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* line 27, ../_scss/_icons.scss */
-.icon-search {
-  content: "\e602";
-}
-
-/* line 30, ../_scss/_icons.scss */
-.icon-phone {
-  content: "\e603";
-}
-
-/* line 33, ../_scss/_icons.scss */
-.icon-hamburger {
-  content: "\e604";
-}
-
-/* line 36, ../_scss/_icons.scss */
-.icon-fb {
-  content: "\e605";
-}
-
-/* line 39, ../_scss/_icons.scss */
-.icon-email {
-  content: "\e606";
-}
-
-/* line 42, ../_scss/_icons.scss */
-.icon-arrow-right {
-  content: "\e600";
-}
-
-/* line 45, ../_scss/_icons.scss */
-.icon-arrow-left {
-  content: "\e607";
-}
-
-/* line 48, ../_scss/_icons.scss */
-.icon-arrow-up {
-  content: "\e608";
-}
-
-/* line 51, ../_scss/_icons.scss */
-.icon-arrow-down, .toggle-about-panel:after {
-  content: "\e609";
-}
-
-/* line 54, ../_scss/_icons.scss */
-.icon-twitter {
-  content: "\e601";
-}
-
-/* line 57, ../_scss/_icons.scss */
-.icon-jshakes-logo, .site-header-icon:before {
-  content: "\e60a";
-}
-
-/* line 3, ../_scss/_layout.scss */
+/* line 17, ../_scss/base/_layout.scss */
 .site-header {
   text-align: center;
   padding: 2em 0;
   background: #e94127;
   color: white;
-  border-bottom: 1px solid white;
 }
 
-/* line 11, ../_scss/_layout.scss */
+/* line 24, ../_scss/base/_layout.scss */
 .site-header-permalink {
   color: white;
   text-decoration: none;
-  display: block;
 }
 
-/* line 17, ../_scss/_layout.scss */
+/* line 29, ../_scss/base/_layout.scss */
 .site-header-icon {
+  display: inline;
   font-size: 0;
 }
-/* line 15, ../_scss/_icons.scss */
+/* line 15, ../_scss/common/_icons.scss */
 .site-header-icon:before {
   font-family: 'jshakes-icons';
   speak: none;
@@ -230,21 +255,71 @@ p {
   text-transform: none;
   line-height: 1;
 }
-/* line 20, ../_scss/_layout.scss */
+/* line 33, ../_scss/base/_layout.scss */
 .site-header-icon:before {
   font-size: 60px;
 }
 
-/* line 27, ../_scss/_layout.scss */
-.toggle-about-panel {
-  cursor: pointer;
-  border-color: white;
-  color: white;
-  background: transparent;
-  font-size: .8em;
+/* line 40, ../_scss/base/_layout.scss */
+.site-footer {
+  text-align: center;
+  color: #666666;
+  padding: 2em 0;
 }
-/* line 15, ../_scss/_icons.scss */
-.toggle-about-panel:after {
+
+/* line 3, ../_scss/modules/_home.scss */
+.intro {
+  padding: 3.5em 1em 1.5em;
+  max-width: 560px;
+  margin: 0 auto;
+  text-align: center;
+  font-style: italic;
+}
+/* line 9, ../_scss/modules/_home.scss */
+.intro:after {
+  margin: 1.5em 0 .25em;
+}
+
+/* line 15, ../_scss/modules/_home.scss */
+.contact-links {
+  margin: 1em 0 0;
+}
+
+/* line 19, ../_scss/modules/_home.scss */
+.contact-link {
+  display: inline-block;
+  margin: 0 1em;
+}
+/* line 22, ../_scss/modules/_home.scss */
+.contact-link > a {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: background, 0.25s;
+  -moz-transition: background, 0.25s;
+  -o-transition: background, 0.25s;
+  transition: background, 0.25s;
+  color: #e94127;
+  width: 42px;
+  height: 42px;
+  display: block;
+  font-size: 0;
+}
+/* line 31, ../_scss/modules/_home.scss */
+.contact-link > a:before {
+  font-size: 20px;
+  vertical-align: middle;
+  line-height: 41px !important;
+}
+/* line 36, ../_scss/modules/_home.scss */
+.contact-link > a:hover {
+  background: #e94127;
+  color: white;
+}
+/* line 15, ../_scss/common/_icons.scss */
+.contact-link .contact-email:before {
   font-family: 'jshakes-icons';
   speak: none;
   font-style: normal;
@@ -253,76 +328,146 @@ p {
   text-transform: none;
   line-height: 1;
 }
-/* line 35, ../_scss/_layout.scss */
-.toggle-about-panel:hover {
-  background: white;
-  color: #e94127;
+/* line 15, ../_scss/common/_icons.scss */
+.contact-link .contact-twitter:before {
+  font-family: 'jshakes-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 }
-/* line 39, ../_scss/_layout.scss */
-.toggle-about-panel:after {
-  margin-left: 1.5em;
-  font-size: .7em;
-}
-
-/* line 45, ../_scss/_layout.scss */
-.about-panel {
-  text-align: center;
-  padding: 2em 0 0;
-}
-
-/* line 50, ../_scss/_layout.scss */
-.about-panel-text {
-  text-align: left;
-  display: none;
+/* line 15, ../_scss/common/_icons.scss */
+.contact-link .contact-github:before {
+  font-family: 'jshakes-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 }
 
-/* line 59, ../_scss/_layout.scss */
+/* line 4, ../_scss/modules/_post.scss */
 .article-index .article-permalink {
   -webkit-transition: background, 0.25s;
   -moz-transition: background, 0.25s;
   -o-transition: background, 0.25s;
   transition: background, 0.25s;
-  display: block;
   text-align: center;
   padding: 2em 25%;
-  text-decoration: none;
-  color: #444444;
+  background: white;
 }
-/* line 66, ../_scss/_layout.scss */
+/* line 9, ../_scss/modules/_post.scss */
 .article-index .article-permalink:hover {
   background: #e94127;
   color: white;
+  text-decoration: none;
 }
-/* line 72, ../_scss/_layout.scss */
+/* line 15, ../_scss/modules/_post.scss */
 .article-index .article-title {
   font-size: 2em;
   margin-bottom: .5em;
 }
 
-/* line 81, ../_scss/_layout.scss */
+/* line 23, ../_scss/modules/_post.scss */
 .article-content {
-  max-width: 600px;
+  max-width: 560px;
   margin: 0 auto;
-  padding: 2em 0;
+  padding: 0 1em;
 }
 
-/* line 87, ../_scss/_layout.scss */
+/* line 31, ../_scss/modules/_post.scss */
 .article-header {
   text-align: center;
+  margin: 3em 0;
+}
+/* line 35, ../_scss/modules/_post.scss */
+.article-header .article-publish-date {
+  margin: 3em 0 0;
+  display: block;
 }
 
-/* line 91, ../_scss/_layout.scss */
+/* line 41, ../_scss/modules/_post.scss */
 .article-permalink {
   color: #444444;
+  display: block;
+  text-decoration: none;
 }
 
-/* line 95, ../_scss/_layout.scss */
+/* line 47, ../_scss/modules/_post.scss */
 .article-title {
   font-size: 3em;
-  margin: 0 0 .5em;
 }
 
-/* line 100, ../_scss/_layout.scss */
+/* line 51, ../_scss/modules/_post.scss */
+.article-hero-image {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0 0 2em;
+}
+
+/* line 60, ../_scss/modules/_post.scss */
+.article-body {
+  padding-bottom: 1.5em;
+}
+/* line 62, ../_scss/modules/_post.scss */
+.article-body h3, .article-body h4, .article-body h5, .article-body h6 {
+  padding: 1em 0 2em;
+}
+/* line 65, ../_scss/modules/_post.scss */
+.article-body h3 {
+  font-size: 2em;
+}
+/* line 68, ../_scss/modules/_post.scss */
+.article-body h4 {
+  font-size: 1.5em;
+}
+/* line 71, ../_scss/modules/_post.scss */
 .article-body > p {
-  margin: 0 0 1em;
+  margin: 0 0 1.5em;
+}
+
+/* line 81, ../_scss/modules/_post.scss */
+.article-footer {
+  font-style: italic;
+}
+
+/* line 85, ../_scss/modules/_post.scss */
+.article-footer-buttons {
+  text-align: center;
+  margin: 0 0 2em;
+}
+
+/* line 90, ../_scss/modules/_post.scss */
+.back-to-posts {
+  font-style: normal;
+  margin-right: 2em;
+}
+/* line 15, ../_scss/common/_icons.scss */
+.back-to-posts:before {
+  font-family: 'jshakes-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+/* line 95, ../_scss/modules/_post.scss */
+.back-to-posts:before {
+  font-size: .75em;
+  margin-right: 1em;
+}
+
+/* line 101, ../_scss/modules/_post.scss */
+.twitter-share-button {
+  vertical-align: bottom;
+  display: inline-block;
 }

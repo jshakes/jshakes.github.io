@@ -3,7 +3,22 @@ layout: layout
 title: "Posts"
 ---
 
-<ul class="article-index">
+<div class="intro">
+  <p>I'm James Shakespeare. I build <a href="http://github.com/{{ site.github }}" target="_blank">websites</a> and write <a href="#posts">things</a>. I live in New York where I make the internet a better place with my friends at <a href="http://bighuman.com" target="_blank">Big Human</a>.</p>
+  <ul class="contact-links">
+    <li class="contact-link">
+      <a class="contact-email" href="mailto:j@jshakespeare.com" title="j@jshakespeare.com">Email</a>
+    </li>
+    <li class="contact-link">
+      <a class="contact-twitter" href="//twitter.com/{{ site.twitter }}" target="_blank" title="@{{ site.twitter }}">Twitter</a>
+    </li>
+    <li class="contact-link">
+      <a class="contact-github" href="//github.com/{{ site.github }}" target="_blank" title="{{ site.github }}">Email</a>
+    </li>
+  </ul>
+</div>
+
+<ul id="posts" class="article-index">
   {% for post in site.posts %}
   <li class="article-item">
     <a class="article-permalink" href="{{ post.url }}">

@@ -1,0 +1,51 @@
+// Home page
+
+.intro{
+  padding: 3.5em 1em 1.5em;
+  max-width: $max_width;
+  margin: 0 auto;
+  text-align: center;
+  font-style: italic;
+  &:after{
+    @extend .divider;
+    margin: 1.5em 0 .25em;
+  }
+}
+
+.contact-links{
+  margin: 1em 0 0;
+}
+
+.contact-link{
+  display: inline-block;
+  margin: 0 1em;
+  & > a{
+    @include border-radius(50%);
+    @include transition(background, .25s);
+    //border: 1px solid $red;
+    color: $red;
+    width: 42px;
+    height: 42px;
+    display: block;
+    font-size: 0;
+    &:before{
+      font-size: 20px;
+      vertical-align: middle;
+      line-height: 41px !important;
+    }
+    &:hover{
+      background: $red;
+      color: white;
+    }
+  }
+
+  .contact-email{
+    @include js-icon("email");
+  }
+  .contact-twitter{
+    @include js-icon("twitter");
+  }
+  .contact-github{
+    @include js-icon("github");
+  }
+}

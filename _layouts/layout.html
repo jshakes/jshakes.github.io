@@ -8,7 +8,7 @@
     {% endif %}
     {{ site.name }}
   </title>
-
+  <link rel="shortcut icon" href="/img/favicon.png">
   <meta name="author" content="{{ site.name }}" />
   <meta name="description" content="{{ site.description }}" />
 
@@ -24,7 +24,13 @@
       <h2 class="site-header-icon">JS</h2>
     </a>
   </header>
-  {{ content }}
+  <div class="content-wrapper">
+    {{ content }}
+  </div>
+  <footer class="site-footer">
+    <p>James Shakespeare, {{ site.time | date: "%Y"}}<br>
+      Lon &#9992; NY</p>
+  </footer>
   <script type="text/javascript" src="/js/vendors/jquery-2.1.0.min.js"></script>
   <script type="text/javascript" src="/js/app.js"></script>
 </body>

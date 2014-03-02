@@ -1,0 +1,44 @@
+.content-wrapper{
+  color: $body_copy;
+  a{
+    text-decoration: none;
+  }
+  p a{
+    background: #fef8b7;
+    color: $body_copy;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+// Header
+
+.site-header{
+  text-align: center;
+  padding: 2em 0;
+  background: $red;
+  color: white;
+}
+
+.site-header-permalink{
+  color: white;
+  text-decoration: none;
+}
+
+.site-header-icon{
+  @include js-icon("jshakes-logo");
+  display: inline;
+  font-size: 0;
+  &:before{
+    font-size: 60px;
+  }
+}
+
+// Footer
+
+.site-footer{
+  text-align: center;
+  color: $light_grey;
+  padding: 2em 0;
+}
