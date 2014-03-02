@@ -3,12 +3,21 @@ layout: layout
 title: "Posts"
 ---
 
-<section class="content">
-  <ul class="listing">
-    {% for post in site.posts %}
-    <li>
-      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
+<button class="toggle-about-panel">About</button>
+
+<div class="about-panel">
+  <p>I am a London born, New York based web developer with experience in both agency and in-house environments. I craft rich user experiences online, drawing from a deep and wide-ranging understanding of web technologies and practices.</p>
+  <p>I graduated from Brunel University, London in 2011 with first class honours in Multimedia Technology and Design BSc.</p>
+  <p>Whilst I typically focus on interface development, I also have extensive experience working with server side languages, frameworks, version control systems and server environments.</p>
+</div>
+
+<ul class="article-index">
+  {% for post in site.posts %}
+  <li class="article-item">
+    <a class="article-permalink" href="{{ post.url }}">
+      <span class="article-publish-date">{{ post.date | date: "%e %B, %Y" }}</span>
+      <h3 class="article-title">{{ post.title }}</h3>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
