@@ -182,6 +182,14 @@ p {
   line-height: 1.5;
 }
 
+/* line 22, ../_scss/base/_base.scss */
+blockquote {
+  border-left: 2px solid #DEDEDE;
+  padding-left: 1em;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
 @font-face {
   font-family: 'allerregular';
   src: url("../fonts/aller_rg-webfont.eot");

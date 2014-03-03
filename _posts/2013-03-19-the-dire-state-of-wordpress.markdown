@@ -8,7 +8,7 @@ title: The dire state of Wordpress
 wordpress_id: 1007
 ---
 
-Wordpress powers a massive tranche of the world's websites - [17.4% of them](http://en.wordpress.com/stats/) in fact, including this one. Over the years its huge community and ease-of-use as a CMS has won it favour with web developers looking for out-of-the-box solutions to homogeneous client briefs. The admin is friendly and clients tend to get to grips with it quickly, making it a good choice for agency environments where the customer may not be savvy enough to wrap their heads around a bespoke but hokey UI.
+Wordpress powers a massive tranche of the world's websites - [17.4% of them](http://en.wordpress.com/stats/) in fact, at the time of writing. Over the years its huge community and ease-of-use as a CMS has won it favour with web developers looking for out-of-the-box solutions to homogeneous client briefs. The admin is friendly and clients tend to get to grips with it quickly, making it a good choice for agency environments where the customer may not be savvy enough to wrap their heads around a bespoke but hokey UI.
 
 Its weakness lies in how it has evolved, or rather mutated, from a blogging platform to pseudo-framework in a highly inelegant way. Functionality has been added along the road to accommodate WP's growing use as a CMS: custom post types, custom menus etc - but really these are just hacks to a platform that fundamentally still behaves like blogging software.
 
