@@ -7,7 +7,9 @@ title: How to be a terrible writer
 
 * Don’t set aside time for writing, but rather panic every couple of weeks about how little you write. Once every few months, publish an apologetic post about how you haven’t written for ages and tell your friends you have ’something in the pipeline'. Over time, the frequency of these crises will diminish and normalise.
 
-* Only read books when you get into bed at night after a long day’s work, ensuring that you read no more than a couple of pages before falling asleep and forgetting what you just read. Re-read the same pages the following night, repeat ad nihil profectus.
+* Only read books when you get into bed at night after a long day’s work, ensuring that you read no more than a couple of pages before falling asleep and forgetting what you just read. Re-read the same pages the following night. Repeat ad nihil profectus.
+
+* Intersperse your writing with Latin phrases to make yourself sound intelligent and alienate your audience.
 
 * Each time you sit down to write a blog post, you should actually be fiddling with bits of code on your site. Every six months you should move your entire site to the blogging platform du jour, then write a post about the migration process.
 
