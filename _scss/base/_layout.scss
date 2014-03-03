@@ -41,6 +41,13 @@
   text-align: center;
   color: $light_grey;
   padding: 2em 0;
+  a{
+    color: $light_grey;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
 }
 
 // Pages

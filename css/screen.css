@@ -274,15 +274,24 @@ blockquote {
   color: #666666;
   padding: 2em 0;
 }
+/* line 44, ../_scss/base/_layout.scss */
+.site-footer a {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 47, ../_scss/base/_layout.scss */
+.site-footer a:hover {
+  text-decoration: underline;
+}
 
-/* line 48, ../_scss/base/_layout.scss */
+/* line 55, ../_scss/base/_layout.scss */
 .page-content {
   max-width: 600px;
   margin: 3em auto 0;
   padding: 0 1em;
 }
 
-/* line 54, ../_scss/base/_layout.scss */
+/* line 61, ../_scss/base/_layout.scss */
 .page-title, .article-title {
   font-size: 3em;
   margin-bottom: 1em;
