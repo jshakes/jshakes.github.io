@@ -4,7 +4,7 @@
   .article-permalink{
     @include transition(background, .25s);
     text-align: center;
-    padding: 2em 25%;
+    padding: 2em 0;
     background: white;
     &:hover{
       background: $red;
@@ -14,7 +14,9 @@
   }
   .article-title{
     font-size: 2em;
-    margin-bottom: .5em;
+    max-width: $max_width;
+    padding: 0 1em;
+    margin: 0 auto .5em;
   }
 }
 
