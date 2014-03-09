@@ -102,62 +102,62 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/* line 38, ../_scss/common/_icons.scss */
+/* line 36, ../_scss/common/_icons.scss */
 .icon-search {
   content: "\e602";
 }
 
-/* line 41, ../_scss/common/_icons.scss */
+/* line 39, ../_scss/common/_icons.scss */
 .icon-phone {
   content: "\e603";
 }
 
-/* line 44, ../_scss/common/_icons.scss */
+/* line 42, ../_scss/common/_icons.scss */
 .icon-hamburger {
   content: "\e604";
 }
 
-/* line 47, ../_scss/common/_icons.scss */
+/* line 45, ../_scss/common/_icons.scss */
 .icon-fb {
   content: "\e605";
 }
 
-/* line 50, ../_scss/common/_icons.scss */
+/* line 48, ../_scss/common/_icons.scss */
 .icon-email, .contact-link .contact-email:before {
   content: "\e606";
 }
 
-/* line 53, ../_scss/common/_icons.scss */
+/* line 51, ../_scss/common/_icons.scss */
 .icon-arrow-right, .post-navigation .next-post:after {
   content: "\e600";
 }
 
-/* line 56, ../_scss/common/_icons.scss */
+/* line 54, ../_scss/common/_icons.scss */
 .icon-arrow-left, .back-to-posts:before, .post-navigation .previous-post:before {
   content: "\e607";
 }
 
-/* line 59, ../_scss/common/_icons.scss */
+/* line 57, ../_scss/common/_icons.scss */
 .icon-arrow-up {
   content: "\e608";
 }
 
-/* line 62, ../_scss/common/_icons.scss */
+/* line 60, ../_scss/common/_icons.scss */
 .icon-arrow-down {
   content: "\e609";
 }
 
-/* line 65, ../_scss/common/_icons.scss */
+/* line 63, ../_scss/common/_icons.scss */
 .icon-twitter, .contact-link .contact-twitter:before {
   content: "\e601";
 }
 
-/* line 68, ../_scss/common/_icons.scss */
+/* line 66, ../_scss/common/_icons.scss */
 .icon-jshakes-logo, .site-header-icon:before {
   content: "\e60a";
 }
 
-/* line 71, ../_scss/common/_icons.scss */
+/* line 69, ../_scss/common/_icons.scss */
 .icon-github, .contact-link .contact-github:before {
   content: "\e60b";
 }
@@ -273,7 +273,7 @@ pre code {
   display: inline;
   font-size: 0;
 }
-/* line 25, ../_scss/common/_icons.scss */
+/* line 20, ../_scss/common/_icons.scss */
 .site-header-icon:before {
   font-family: 'jshakes-icons';
   speak: none;
@@ -371,7 +371,7 @@ pre code {
 .contact-link .contact-email {
   font-size: 0;
 }
-/* line 25, ../_scss/common/_icons.scss */
+/* line 20, ../_scss/common/_icons.scss */
 .contact-link .contact-email:before {
   font-family: 'jshakes-icons';
   speak: none;
@@ -380,12 +380,13 @@ pre code {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  font-size: 1rem;
 }
 /* line 44, ../_scss/modules/_home.scss */
 .contact-link .contact-twitter {
   font-size: 0;
 }
-/* line 25, ../_scss/common/_icons.scss */
+/* line 20, ../_scss/common/_icons.scss */
 .contact-link .contact-twitter:before {
   font-family: 'jshakes-icons';
   speak: none;
@@ -394,12 +395,13 @@ pre code {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  font-size: 1rem;
 }
 /* line 47, ../_scss/modules/_home.scss */
 .contact-link .contact-github {
   font-size: 0;
 }
-/* line 25, ../_scss/common/_icons.scss */
+/* line 20, ../_scss/common/_icons.scss */
 .contact-link .contact-github:before {
   font-family: 'jshakes-icons';
   speak: none;
@@ -408,6 +410,7 @@ pre code {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  font-size: 1rem;
 }
 
 /* line 4, ../_scss/modules/_post.scss */
@@ -511,7 +514,7 @@ pre code {
   font-style: normal;
   margin-right: 2em;
 }
-/* line 25, ../_scss/common/_icons.scss */
+/* line 20, ../_scss/common/_icons.scss */
 .back-to-posts:before {
   font-family: 'jshakes-icons';
   speak: none;
@@ -572,7 +575,7 @@ pre code {
 .post-navigation .previous-post {
   padding-left: 2em;
 }
-/* line 25, ../_scss/common/_icons.scss */
+/* line 20, ../_scss/common/_icons.scss */
 .post-navigation .previous-post:before {
   font-family: 'jshakes-icons';
   speak: none;
@@ -591,7 +594,7 @@ pre code {
   text-align: right;
   padding-right: 2em;
 }
-/* line 25, ../_scss/common/_icons.scss */
+/* line 20, ../_scss/common/_icons.scss */
 .post-navigation .next-post:after {
   font-family: 'jshakes-icons';
   speak: none;

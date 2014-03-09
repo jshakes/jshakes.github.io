@@ -39,12 +39,12 @@
   }
 
   .contact-email{
-    @include js-icon("email", "replace");
+    @include js-icon("email", "before", true);
   }
   .contact-twitter{
-    @include js-icon("twitter", "replace");
+    @include js-icon("twitter", "before", true);
   }
   .contact-github{
-    @include js-icon("github", "replace");
+    @include js-icon("github", "before", true);
   }
 }

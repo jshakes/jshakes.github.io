@@ -14,18 +14,13 @@ Wouldn’t it be nice if you could just include icons, positioned exactly how yo
 Using this Sass mixin, you can:
 
 {% highlight scss %}
-@mixin icomoon($icon, $position: "before") {
-  // Default placement of the element
-  $pseudo: "before";
-  // If we're replacing the text, set the font-size to 0
-  @if $position == "replace" {
+@mixin icomoon($icon, $position: "before", $replace: false) {
+  // If we're replacing the text, set font-size to 0
+  @if $replace {
     font-size: 0;
   }
-  @else if $position == "after" {
-    $pseudo: "after";
-  }
   // Pseudo-element properties
-  &:#{$pseudo} {
+  &:#{$position} {
     @extend .icon-#{$icon};
     font-family: 'icomoon';
     speak: none;
@@ -34,6 +29,9 @@ Using this Sass mixin, you can:
     font-variant: normal;
     text-transform: none;
     line-height: 1;
+    @if $replace {
+      font-size: 1rem;
+    }
     @content;
   }
 }
@@ -66,11 +64,13 @@ To use the mixin, just call:
 
 The first argument, `$icon`, accepts the icon name, minus the "icon-" prefix used to define the class.
 
-For the second argument, `$position`, you can provide “before”, “after” or “replace” depending on where you want the icon to be placed relative to the contents of the element. “replace" sets the font-size of the contents to 0, so you must pass in a pixel-based font size value to the content block to restore the size of the icon. 
+For the second argument, `$position`, you can provide “before” or “after”, depending on where you want the icon to be placed relative to the contents of the element. 
+
+The `$replace` argument is a bool that sets the font-size of the element's immediate contents to 0 when true. Note that while the mixin will attempt to restore the font-size of the icon to `1rem`, you should pass in a pixel-based font size value to the content block to reliably set the size of the icon.
 
 {% highlight scss %}
 // Visually replace the contents of the element with the search icon
-@include icomoon("search", "replace") {
+@include icomoon("search", "before", true) {
   font-size: 20px;
 }
 {% endhighlight %}
