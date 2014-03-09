@@ -55,7 +55,7 @@
 .article-body{
   padding-bottom: 1.5em;
   h3, h4, h5, h6{
-    padding: 1em 0 2em;
+    padding: 1em 0 1em;
   }
   h3{
     font-size: 2em;
@@ -72,6 +72,7 @@
   ul li{
     margin: 0 0 2em;
     list-style: disc;
+    line-height: 1.5;
   }
 }
 

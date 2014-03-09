@@ -9,10 +9,20 @@
   font-style: normal;
 }
 
-// A sexy mixin
 
-@mixin js-icon($icon, $position:"before"){
-  &:#{$position}{
+
+@mixin js-icon($icon, $position: "before") {
+  // Default placement of the element
+  $pseudo: "before";
+  // If we're replacing the text, set the font-size to 0
+  @if $position == "replace" {
+    font-size: 0;
+  }
+  @else if $position == "after" {
+    $pseudo: "after";
+  }
+  // Pseudo-element properties
+  &:#{$pseudo} {
     @extend .icon-#{$icon};
     font-family: 'jshakes-icons';
     speak: none;
@@ -21,6 +31,7 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
+    @content;
   }
 }
 

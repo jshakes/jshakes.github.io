@@ -6,10 +6,10 @@ module.exports = (grunt) ->
     watch:
       compass:
         files: ["_scss/**/*.scss"]
-        tasks: ["compass:dev"]
+        tasks: ["compass"]
       coffee:
         files: ["_coffee/**/*.coffee"]
-        tasks: ["coffee:dev"]
+        tasks: ["coffee"]
 
     compass:
       dev:
@@ -23,6 +23,13 @@ module.exports = (grunt) ->
           cssDir: "css"
           imagesDir: "img"
 
+    concat:
+      vendors_js:
+        src: [
+          "bower_components/jquery/dist/jquery.min.js"
+        ]
+        dest: "js/vendors.js"
+
     coffee:
       options:
         bare: true
@@ -34,5 +41,6 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-contrib-watch"
   grunt.loadNpmTasks "grunt-contrib-compass"
   grunt.loadNpmTasks "grunt-contrib-coffee"
+  grunt.loadNpmTasks "grunt-contrib-concat"
 
-  grunt.registerTask "build", ["compass", "coffee"]
+  grunt.registerTask "build", ["compass", "coffee", "concat"]

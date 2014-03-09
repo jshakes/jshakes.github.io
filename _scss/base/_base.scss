@@ -25,3 +25,21 @@ blockquote{
   font-style: italic;
   margin-bottom: 1em;
 }
+
+code{
+  font-family: monospace;
+  background: #EEE;
+  padding: .1em .25em;
+}
+
+pre{
+  background: #111;
+  padding: 1em;
+  line-height: 1.5;
+  margin: 0 0 2em;
+  white-space: pre-wrap;
+  code{
+    background: none;
+    padding: 0;
+  }
+}

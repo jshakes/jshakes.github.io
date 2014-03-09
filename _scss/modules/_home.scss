@@ -27,7 +27,6 @@
     width: 42px;
     height: 42px;
     display: block;
-    font-size: 0;
     &:before{
       font-size: 20px;
       vertical-align: middle;
@@ -40,12 +39,12 @@
   }
 
   .contact-email{
-    @include js-icon("email");
+    @include js-icon("email", "replace");
   }
   .contact-twitter{
-    @include js-icon("twitter");
+    @include js-icon("twitter", "replace");
   }
   .contact-github{
-    @include js-icon("github");
+    @include js-icon("github", "replace");
   }
 }
