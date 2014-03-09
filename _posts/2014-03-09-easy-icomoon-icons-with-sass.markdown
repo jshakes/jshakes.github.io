@@ -41,7 +41,7 @@ Using this Sass mixin, you can:
 
 The mixin assumes two things:
 
-* You have already declared the ‘icomoon’ font-family using @font-face (grab this from Icomoon’s style.css).
+* You have already declared the ‘icomoon’ font-family using `@font-face` (grab this from Icomoon’s style.css).
 * You have classes assigned to each unicode character in your font file (this is more or less what Icomoon gives you in style.css, minus the `:before`), like this:
 {% highlight scss %}
 .icon-search {
@@ -64,9 +64,9 @@ To use the mixin, just call:
 @include icomoon("myIcon");
 {% endhighlight %}
 
-The second argument, `$icon`, accepts the icon name, minus the ‘icon-‘ prefix used to define the class.
+The first argument, `$icon`, accepts the icon name, minus the "icon-" prefix used to define the class.
 
-For the `$position` argument, you can provide “before”, “after” or “replace” depending on where you want the icon to be placed relative to the contents of the element. “replace" sets the font-size of the contents to 0, so you must pass in a pixel-based font size value to the content block to restore the size of the icon. 
+For the second argument, `$position`, you can provide “before”, “after” or “replace” depending on where you want the icon to be placed relative to the contents of the element. “replace" sets the font-size of the contents to 0, so you must pass in a pixel-based font size value to the content block to restore the size of the icon. 
 
 {% highlight scss %}
 // Visually replace the contents of the element with the search icon
