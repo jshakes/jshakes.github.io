@@ -1,0 +1,80 @@
+---
+date: 2014-03-09 18:22:56+05:00
+layout: post
+slug: easy-icomoon-icons-with-sass
+title: Easy Icomoon icons with Sass
+---
+
+Using icons on the web has become exactly 9000% better since the arrival of <a href="http://icomoon.io/" target="_blank">Icomoon</a>, a web app that lets you easily create icon fonts from vector files.
+
+Trouble is, implementing the icons that Icomoon gives you is still a bit of a pain. It requires adding the `.icon` and `.icon-fontname` classes to your elements, which is non-semantic and not DRY-friendly. Modification of the icon requires more CSS that targets specifically the `:before` pseudo-element, which means a load of rules that aren’t bound explicitly to the icon itself. Furthermore, if you want to display the icon `:after` the element content, or replace the content entirely, you have a lot more hassle on your hands.
+
+Wouldn’t it be nice if you could just include icons, positioned exactly how you want them, in your existing CSS classes with one line?
+
+Using this Sass mixin, you can:
+
+{% highlight scss %}
+@mixin icomoon($icon, $position: "before") {
+  // Default placement of the element
+  $pseudo: "before";
+  // If we're replacing the text, set the font-size to 0
+  @if $position == "replace" {
+    font-size: 0;
+  }
+  @else if $position == "after" {
+    $pseudo: "after";
+  }
+  // Pseudo-element properties
+  &:#{$pseudo} {
+    @extend .icon-#{$icon};
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    @content;
+  }
+}
+{% endhighlight %}
+
+The mixin assumes two things:
+
+* You have already declared the ‘icomoon’ font-family using @font-face (grab this from Icomoon’s style.css).
+* You have classes assigned to each unicode character in your font file (this is more or less what Icomoon gives you in style.css, minus the `:before`), like this:
+{% highlight scss %}
+.icon-search {
+  content: "\e602";
+}
+.icon-fb {
+  content: "\e605";
+}
+.icon-email {
+  content: "\e606";
+}
+// ...
+{% endhighlight %}
+
+### Usage
+
+To use the mixin, just call:
+
+{% highlight scss %}
+@include icomoon("myIcon");
+{% endhighlight %}
+
+The second argument, `$icon`, accepts the icon name, minus the ‘icon-‘ prefix used to define the class.
+
+For the `$position` argument, you can provide “before”, “after” or “replace” depending on where you want the icon to be placed relative to the contents of the element. “replace" sets the font-size of the contents to 0, so you must pass in a pixel-based font size value to the content block to restore the size of the icon. 
+
+{% highlight scss %}
+// Visually replace the contents of the element with the search icon
+@include icomoon("search", "replace") {
+  font-size: 20px;
+}
+{% endhighlight %}
+
+Replacing text in this way is a good idea because it means the text is still there as a fallback for screen-readers or in case your stylesheet fails to load.
+
+Hopefully this will make adding icons to your elements a little quicker.
