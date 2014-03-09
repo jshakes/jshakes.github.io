@@ -7,6 +7,7 @@
 body{
   font-family: "Georgia", serif;
   font-size: 16px;
+  min-width: 300px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -41,5 +42,8 @@ pre{
   code{
     background: none;
     padding: 0;
+  }
+  @include smaller-than(medium) {
+    font-size: .75em;
   }
 }

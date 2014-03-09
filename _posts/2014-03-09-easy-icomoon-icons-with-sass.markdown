@@ -77,4 +77,4 @@ The `$replace` argument is a bool that sets the font-size of the element's immed
 
 Replacing text in this way is a good idea because it means the text is still there as a fallback for screen-readers or in case your stylesheet fails to load.
 
-Hopefully this will make adding icons to your elements a little quicker.
+Hopefully this will make managing your icons a little easier.

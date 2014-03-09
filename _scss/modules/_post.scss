@@ -69,10 +69,15 @@
   &:after{
     @extend .divider;
   }
-  ul li{
-    margin: 0 0 2em;
-    list-style: disc;
-    line-height: 1.5;
+  ul{
+    @include smaller-than(medium) {
+      padding-left: 1em;
+    }
+    li{
+      margin: 0 0 2em;
+      list-style: disc;
+      line-height: 1.5;
+    }
   }
 }
 

@@ -173,16 +173,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   font-family: "Georgia", serif;
   font-size: 16px;
+  min-width: 300px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 18, ../_scss/base/_base.scss */
+/* line 19, ../_scss/base/_base.scss */
 p {
   line-height: 1.5;
 }
 
-/* line 22, ../_scss/base/_base.scss */
+/* line 23, ../_scss/base/_base.scss */
 blockquote {
   border-left: 2px solid #DEDEDE;
   padding-left: 1em;
@@ -190,14 +191,14 @@ blockquote {
   margin-bottom: 1em;
 }
 
-/* line 29, ../_scss/base/_base.scss */
+/* line 30, ../_scss/base/_base.scss */
 code {
   font-family: monospace;
   background: #EEE;
   padding: .1em .25em;
 }
 
-/* line 35, ../_scss/base/_base.scss */
+/* line 36, ../_scss/base/_base.scss */
 pre {
   background: #111;
   padding: 1em;
@@ -205,10 +206,16 @@ pre {
   margin: 0 0 2em;
   white-space: pre-wrap;
 }
-/* line 41, ../_scss/base/_base.scss */
+/* line 42, ../_scss/base/_base.scss */
 pre code {
   background: none;
   padding: 0;
+}
+@media (max-width: 600px) {
+  /* line 36, ../_scss/base/_base.scss */
+  pre {
+    font-size: .75em;
+  }
 }
 
 @font-face {
@@ -486,30 +493,36 @@ pre code {
 .article-body > p {
   margin: 0 0 1.5em;
 }
-/* line 72, ../_scss/modules/_post.scss */
+@media (max-width: 600px) {
+  /* line 72, ../_scss/modules/_post.scss */
+  .article-body ul {
+    padding-left: 1em;
+  }
+}
+/* line 76, ../_scss/modules/_post.scss */
 .article-body ul li {
   margin: 0 0 2em;
   list-style: disc;
   line-height: 1.5;
 }
 
-/* line 81, ../_scss/modules/_post.scss */
+/* line 86, ../_scss/modules/_post.scss */
 .article-footer {
   font-style: italic;
 }
 
-/* line 85, ../_scss/modules/_post.scss */
+/* line 90, ../_scss/modules/_post.scss */
 .article-footer-text {
   margin-bottom: 2em;
 }
 
-/* line 89, ../_scss/modules/_post.scss */
+/* line 94, ../_scss/modules/_post.scss */
 .article-footer-buttons {
   text-align: center;
   margin: 0 0 2em;
 }
 
-/* line 94, ../_scss/modules/_post.scss */
+/* line 99, ../_scss/modules/_post.scss */
 .back-to-posts {
   font-style: normal;
   margin-right: 2em;
@@ -524,25 +537,25 @@ pre code {
   text-transform: none;
   line-height: 1;
 }
-/* line 99, ../_scss/modules/_post.scss */
+/* line 104, ../_scss/modules/_post.scss */
 .back-to-posts:before {
   font-size: .75em;
   margin-right: 1em;
 }
 
-/* line 105, ../_scss/modules/_post.scss */
+/* line 110, ../_scss/modules/_post.scss */
 .twitter-share-button {
   vertical-align: bottom;
   display: inline-block;
 }
 
-/* line 112, ../_scss/modules/_post.scss */
+/* line 117, ../_scss/modules/_post.scss */
 .post-navigation {
   display: table;
   width: 100%;
   position: relative;
 }
-/* line 117, ../_scss/modules/_post.scss */
+/* line 122, ../_scss/modules/_post.scss */
 .post-navigation .previous-post,
 .post-navigation .next-post {
   -webkit-transition: background, 0.25s;
@@ -557,13 +570,13 @@ pre code {
   vertical-align: middle;
   line-height: 1.25;
 }
-/* line 126, ../_scss/modules/_post.scss */
+/* line 131, ../_scss/modules/_post.scss */
 .post-navigation .previous-post:hover,
 .post-navigation .next-post:hover {
   background: #e94127;
   color: white;
 }
-/* line 130, ../_scss/modules/_post.scss */
+/* line 135, ../_scss/modules/_post.scss */
 .post-navigation .previous-post:before, .post-navigation .previous-post:after,
 .post-navigation .next-post:before,
 .post-navigation .next-post:after {
@@ -571,7 +584,7 @@ pre code {
   top: 50%;
   margin-top: -8px;
 }
-/* line 136, ../_scss/modules/_post.scss */
+/* line 141, ../_scss/modules/_post.scss */
 .post-navigation .previous-post {
   padding-left: 2em;
 }
@@ -585,11 +598,11 @@ pre code {
   text-transform: none;
   line-height: 1;
 }
-/* line 139, ../_scss/modules/_post.scss */
+/* line 144, ../_scss/modules/_post.scss */
 .post-navigation .previous-post:before {
   left: .5em;
 }
-/* line 143, ../_scss/modules/_post.scss */
+/* line 148, ../_scss/modules/_post.scss */
 .post-navigation .next-post {
   text-align: right;
   padding-right: 2em;
@@ -604,7 +617,7 @@ pre code {
   text-transform: none;
   line-height: 1;
 }
-/* line 147, ../_scss/modules/_post.scss */
+/* line 152, ../_scss/modules/_post.scss */
 .post-navigation .next-post:after {
   right: .5em;
 }

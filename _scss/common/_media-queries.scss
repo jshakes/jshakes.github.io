@@ -1,0 +1,24 @@
+// =========================
+// $Media Query Definitions
+// =========================
+
+$small: 300px; 
+$medium: 600px; 
+
+@mixin larger-than($width) {
+  @if $width == small {
+    @media (min-width: $small) { @content; }
+  }
+  @else if $width == medium {
+    @media (min-width: $medium) { @content; }
+  }
+}
+
+@mixin smaller-than($width) {
+  @if $width == small {
+    @media (max-width: $small) { @content; }
+  }
+  @else if $width == medium {
+    @media (max-width: $medium) { @content; }
+  }
+}
