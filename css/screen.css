@@ -469,7 +469,7 @@ pre code {
 }
 /* line 57, ../_scss/modules/_post.scss */
 .article-body h3, .article-body h4, .article-body h5, .article-body h6 {
-  padding: 1em 0 1em;
+  padding: .5em 0 1.5em;
 }
 /* line 60, ../_scss/modules/_post.scss */
 .article-body h3 {
