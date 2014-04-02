@@ -218,6 +218,11 @@ pre code {
   }
 }
 
+/* line 51, ../_scss/base/_base.scss */
+em {
+  font-style: italic;
+}
+
 @font-face {
   font-family: 'allerregular';
   src: url("../fonts/aller_rg-webfont.eot");
