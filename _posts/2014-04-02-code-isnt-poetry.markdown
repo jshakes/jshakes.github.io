@@ -3,6 +3,7 @@ date: 2014-04-02 12:00:00+05:00
 layout: post
 slug: code-isnt-poetry
 title: Code isn't poetry
+image: hemingway.jpg
 ---
 
 Ernest Hemingway’s masterfully uncluttered prose made for some of the best novels to come out of America in the 20th century. He sought to achieve truthfulness of language, primarily by eschewing ornament and flamboyance in his writing. Of his 1964 novel *A Moveable Feast* he said
