@@ -11,7 +11,7 @@ Ernest Hemingway’s masterfully uncluttered prose made for some of the best nov
 
 People tend to mistake Hemingway’s style as pure terseness, but this is not always the case. He did not write with a minimalist agenda, he simply championed readability. Whilst he often wrote in a staccato fashion he also penned sentences spanning an entire paragraphs, repeating the same words several times to enforce their meaning.
 
-The reason Hemingway wrote this way was because he understood that the medium is not the message. If prose got in the way of the story through self-indulgent vocabulary or by causing the reader to stumble over unfamiliar words it would detract from the essence of the story itself. Through writing as he did, Hemingway emulated a conversational style of writing that reads with little effort.
+The reason Hemingway wrote this way was because he understood that the medium is not the message. If syntax or vocabulary got in the way of the story it would detract from the essence of the story itself. Through writing as he did, Hemingway emulated a conversational style of writing that reads with little effort.
 
 As developers we can apply this aesthetic to the way we write code. When we know that our code will be read by a human at some point (even it is by our future selves), we should try to write it in a way that is as uncluttered, simple and non-egotistical as possible.
 
