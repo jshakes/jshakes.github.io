@@ -1,0 +1,14 @@
+---
+layout: layout
+title: "Portfolio"
+---
+
+<ul id="projects" class="project-index">
+  {% for project in site.projects %}
+  <li class="article-item">
+    <a class="article-permalink" href="/img/thumbs/{{ post.slug }}">
+      <h3 class="article-title">{{ project.title }}</h3>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
