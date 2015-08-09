@@ -1,5 +1,5 @@
 ---
-date: 2015-03-16 22:46:00+05:00
+date: 2015-08-09 22:46:00+05:00
 layout: post
 slug: giving-clients-jailed-sftp-access
 title: Giving clients 'jailed' SFTP access to their sites
