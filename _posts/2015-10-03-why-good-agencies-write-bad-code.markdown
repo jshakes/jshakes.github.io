@@ -1,5 +1,5 @@
 ---
-date: 2015-10-03 22:46:00+05:00
+date: 2015-10-04 22:46:00+05:00
 layout: post
 slug: why-good-agencies-write-bad-code
 title: Why good agencies write bad code
