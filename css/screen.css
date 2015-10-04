@@ -508,24 +508,49 @@ em {
   list-style: disc;
   line-height: 1.5;
 }
+/* line 82, ../_scss/modules/_post.scss */
+.article-body ol {
+  margin: 0 0 1.5em;
+}
+/* line 84, ../_scss/modules/_post.scss */
+.article-body ol li {
+  list-style-type: decimal;
+  margin: 0 0 1em;
+}
+/* line 89, ../_scss/modules/_post.scss */
+.article-body hr {
+  border-top: 1px solid #DCDCDC;
+  border-bottom: 0;
+  margin: 2em 0;
+}
+/* line 94, ../_scss/modules/_post.scss */
+.article-body figure {
+  text-align: center;
+}
+/* line 96, ../_scss/modules/_post.scss */
+.article-body figure figcaption {
+  margin: 1em 0;
+  font-style: italic;
+  line-height: 1.5;
+}
 
-/* line 86, ../_scss/modules/_post.scss */
+/* line 106, ../_scss/modules/_post.scss */
 .article-footer {
   font-style: italic;
 }
 
-/* line 90, ../_scss/modules/_post.scss */
+/* line 110, ../_scss/modules/_post.scss */
 .article-footer-text {
   margin-bottom: 2em;
 }
 
-/* line 94, ../_scss/modules/_post.scss */
+/* line 114, ../_scss/modules/_post.scss */
 .article-footer-buttons {
   text-align: center;
   margin: 0 0 2em;
 }
 
-/* line 99, ../_scss/modules/_post.scss */
+/* line 119, ../_scss/modules/_post.scss */
 .back-to-posts {
   font-style: normal;
   margin-right: 2em;
@@ -540,25 +565,25 @@ em {
   text-transform: none;
   line-height: 1;
 }
-/* line 104, ../_scss/modules/_post.scss */
+/* line 124, ../_scss/modules/_post.scss */
 .back-to-posts:before {
   font-size: .75em;
   margin-right: 1em;
 }
 
-/* line 110, ../_scss/modules/_post.scss */
+/* line 130, ../_scss/modules/_post.scss */
 .twitter-share-button {
   vertical-align: bottom;
   display: inline-block;
 }
 
-/* line 117, ../_scss/modules/_post.scss */
+/* line 137, ../_scss/modules/_post.scss */
 .post-navigation {
   display: table;
   width: 100%;
   position: relative;
 }
-/* line 121, ../_scss/modules/_post.scss */
+/* line 141, ../_scss/modules/_post.scss */
 .post-navigation .previous-post,
 .post-navigation .next-post {
   -moz-transition: background, 0.25s;
@@ -573,13 +598,13 @@ em {
   vertical-align: middle;
   line-height: 1.25;
 }
-/* line 131, ../_scss/modules/_post.scss */
+/* line 151, ../_scss/modules/_post.scss */
 .post-navigation .previous-post:hover,
 .post-navigation .next-post:hover {
   background: #E94127;
   color: white;
 }
-/* line 135, ../_scss/modules/_post.scss */
+/* line 155, ../_scss/modules/_post.scss */
 .post-navigation .previous-post:before, .post-navigation .previous-post:after,
 .post-navigation .next-post:before,
 .post-navigation .next-post:after {
@@ -587,7 +612,7 @@ em {
   top: 50%;
   margin-top: -8px;
 }
-/* line 141, ../_scss/modules/_post.scss */
+/* line 161, ../_scss/modules/_post.scss */
 .post-navigation .previous-post {
   padding-left: 2em;
 }
@@ -601,11 +626,11 @@ em {
   text-transform: none;
   line-height: 1;
 }
-/* line 144, ../_scss/modules/_post.scss */
+/* line 164, ../_scss/modules/_post.scss */
 .post-navigation .previous-post:before {
   left: .5em;
 }
-/* line 148, ../_scss/modules/_post.scss */
+/* line 168, ../_scss/modules/_post.scss */
 .post-navigation .next-post {
   text-align: right;
   padding-right: 2em;
@@ -620,7 +645,7 @@ em {
   text-transform: none;
   line-height: 1;
 }
-/* line 152, ../_scss/modules/_post.scss */
+/* line 172, ../_scss/modules/_post.scss */
 .post-navigation .next-post:after {
   right: .5em;
 }
