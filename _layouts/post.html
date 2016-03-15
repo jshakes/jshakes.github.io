@@ -7,9 +7,7 @@ layout: layout
     {% if page.image %}
     <img class="article-hero-image" src="/img/post_images/{{ page.image }}" alt="{{ page.title }}">
     {% endif %}
-    <a class="article-permalink" href="{{ page.url }}">
-      <h1 class="article-title">{{ page.title }}</h1>
-    </a>
+    <h1 class="article-title">{{ page.title }}</h1>
     <span class="article-publish-date">{{ page.date | date: "%B %e, %Y" }}</span>
   </section>
   <section class="article-body">
